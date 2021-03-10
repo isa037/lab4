@@ -1,0 +1,1932 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do testing_mbe.do
+# Cannot open macro file: testing_mbe.do
+do ../testing_mbe.do
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:53 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/multiplier/FF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FFN_EN_FP
+# -- Compiling architecture BEHAVIOR of FFN_EN_FP
+# End time: 20:29:53 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:53 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/common/fpnormalize_fpnormalize.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FPnormalize
+# -- Compiling architecture FPnormalize of FPnormalize
+# End time: 20:29:53 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:54 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/common/fpround_fpround.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FPround
+# -- Compiling architecture FPround of FPround
+# End time: 20:29:54 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:54 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/common/packfp_packfp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity PackFP
+# -- Compiling architecture PackFP of PackFP
+# End time: 20:29:54 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:54 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/common/unpackfp_unpackfp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity UnpackFP
+# -- Compiling architecture UnpackFP of UnpackFP
+# End time: 20:29:54 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:54 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/my_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package my_pkg
+# -- Compiling package body my_pkg
+# -- Loading package my_pkg
+# End time: 20:29:55 on Mar 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:55 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/partial_product_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity ppg
+# -- Compiling architecture behavioral of ppg
+# End time: 20:29:55 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:55 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/s_padder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Loading package my_pkg
+# -- Compiling entity s_padder
+# -- Compiling architecture behavioral of s_padder
+# End time: 20:29:55 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:55 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/FA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity FA
+# -- Compiling architecture behavioral of FA
+# End time: 20:29:55 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:56 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/HA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity HA
+# -- Compiling architecture behavioral of HA
+# End time: 20:29:56 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:56 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Loading package my_pkg
+# -- Compiling entity dadda_stage1
+# -- Compiling architecture behavioral of dadda_stage1
+# End time: 20:29:56 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:56 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DADDA_STAGE2
+# -- Compiling architecture STRUCT of DADDA_STAGE2
+# End time: 20:29:56 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:56 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_stage3
+# -- Compiling architecture behavioral of dadda_stage3
+# End time: 20:29:57 on Mar 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:57 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_stage4
+# -- Compiling architecture behavioral of dadda_stage4
+# End time: 20:29:57 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:57 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_stage5
+# -- Compiling architecture behavioral of dadda_stage5
+# End time: 20:29:57 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:57 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage6.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_stage6
+# -- Compiling architecture behavioral of dadda_stage6
+# End time: 20:29:58 on Mar 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:58 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/rca63.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity rca63
+# -- Compiling architecture behavioral of rca63
+# End time: 20:29:58 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:58 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_tree.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Loading package my_pkg
+# -- Compiling entity dadda_tree
+# -- Compiling architecture rtl of dadda_tree
+# End time: 20:29:58 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:58 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/mbe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Loading package my_pkg
+# -- Compiling entity mbe
+# -- Compiling architecture rtl of mbe
+# End time: 20:29:59 on Mar 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:29:59 on Mar 10,2021
+# vlog -reportprogress 300 -sv ../tb/top.sv 
+# ** Note: (vlog-2286) ../tb/top.sv(2): Using implicit +incdir+/software/mentor/questa10.7c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Warning: ../tb/monitor.sv(49): (vlog-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# ** Warning: ../tb/monitor_out.sv(48): (vlog-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# -- Compiling module mbe_sv
+# -- Compiling interface dut_if
+# -- Compiling module DUT
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:30:01 on Mar 10,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 20:30:01 on Mar 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../tb/monitor.sv(49): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# ** Warning: ../tb/monitor_out.sv(48): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.DUT(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.dut_if(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_pkg(body)
+# Loading work.mbe(rtl)#1
+# Loading work.dadda_stage1(behavioral)#1
+# Loading work.dadda_stage2(struct)#1
+# Loading work.dadda_stage3(behavioral)#1
+# Loading work.dadda_stage4(behavioral)#1
+# Loading work.dadda_stage5(behavioral)#1
+# Loading work.dadda_stage6(behavioral)#1
+# ** Warning: (vsim-3838) Variable '/top/out/data' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../src/DUT.sv(9).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum File: ../src/DUT.sv Line: 3
+# ** Warning: (vsim-3764) Stand-alone call to function 'begin_tr' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit::driver File: ../tb/driver.sv Line: 67
+# Loading /software/mentor/questa10.7c/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test simple_test...
+# mbe: input A =  731014105, input B =  175121917, output OUT = work.DUT(fast)  128016591421639285
+# mbe: input A = 00101011100100100110001111011001, input B = 00001010011100000010010111111101, output OUT = 0000000111000110110011100110100101100001000010110000101001110101
+# refmod: input A =   731014105, input B =   175121917, output OUT = work.top_sv_unit(fast)   128016591421639285
+# refmod: input A = 00101011100100100110001111011001, input B = 00001010011100000010010111111101, output OUT = 0000000111000110110011100110100101100001000010110000101001110101
+# UVM_INFO @ 45: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =   80379531, input B = 2702342644, output OUT = work.DUT(fast)  217213034326019964
+# mbe: input A = 00000100110010100111111010001011, input B = 10100001000100100111100111110100, output OUT = 0000001100000011101100100001101010010111100101100100111101111100
+# refmod: input A =    80379531, input B = -1592624652, output OUT = work.top_sv_unit(fast)  -128014422586798212
+# refmod: input A = 00000100110010100111111010001011, input B = 10100001000100100111100111110100, output OUT = 1111111000111001001100111000111110010111100101100100111101111100
+# UVM_INFO @ 75: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe39338f97964f7c : rhs = 'h303b21a97964f7c
+# UVM_INFO @ 75: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 75: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  260878708, input B = 3812952346, output OUT = work.DUT(fast)  994718081690048968
+# mbe: input A = 00001111100011001011000101110100, input B = 11100011010001010000100100011010, output OUT = 0000110111001101111100101101001100110110110010110001100111001000
+# refmod: input A =   260878708, input B =  -482014950, output OUT = work.top_sv_unit(fast)  -125747437392684600
+# refmod: input A = 00001111100011001011000101110100, input B = 11100011010001010000100100011010, output OUT = 1111111001000001010000010101111100110110110010110001100111001000
+# UVM_INFO @ 105: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe41415f36cb19c8 : rhs = 'hdcdf2d336cb19c8
+# UVM_INFO @ 105: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 105: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 4264621708, input B = 4099804783, output OUT = work.DUT(fast)17484116476144029364
+# mbe: input A = 11111110001100001111011010001100, input B = 11110100010111100000111001101111, output OUT = 1111001010100100000011110100110011011100000111101000111010110100
+# refmod: input A =   -30345588, input B =  -195162513, output OUT = work.top_sv_unit(fast)     5922321212542644
+# refmod: input A = 11111110001100001111011010001100, input B = 11110100010111100000111001101111, output OUT = 0000000000010101000010100101000111011100000111101000111010110100
+# UVM_INFO @ 135: reporter [MISCMP] Miscompare for exp.data: lhs = 'h150a51dc1e8eb4 : rhs = 'hf2a40f4cdc1e8eb4
+# UVM_INFO @ 135: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 135: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2682128719, input B = 3715728877, output OUT = work.DUT(fast) 9966063133019318563
+# mbe: input A = 10011111110111100000100101001111, input B = 11011101011110011000010111101101, output OUT = 1000101001001110100100011001110111110100101110111010100100100011
+# refmod: input A = -1612838577, input B =  -579238419, output OUT = work.top_sv_unit(fast)   934218067443689763
+# refmod: input A = 10011111110111100000100101001111, input B = 11011101011110011000010111101101, output OUT = 0000110011110111000000100110000111110100101110111010100100100011
+# UVM_INFO @ 165: reporter [MISCMP] Miscompare for exp.data: lhs = 'hcf70261f4bba923 : rhs = 'h8a4e919df4bba923
+# UVM_INFO @ 165: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 165: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  140412694, input B = 1111608308, output OUT = work.DUT(fast)  156083917199061752
+# mbe: input A = 00001000010111101000011100010110, input B = 01000010010000011100101111110100, output OUT = 0000001000101010100001010111111011100111110011010011001011111000
+# refmod: input A =   140412694, input B =  1111608308, output OUT = work.top_sv_unit(fast)   156083917199061752
+# refmod: input A = 00001000010111101000011100010110, input B = 01000010010000011100101111110100, output OUT = 0000001000101010100001010111111011100111110011010011001011111000
+# UVM_INFO @ 195: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 3761234779, input B = 3947285453, output OUT = work.DUT(fast)14846667328464369887
+# mbe: input A = 11100000001011111110001101011011, input B = 11101011010001101100101111001101, output OUT = 1100111000001001111101010100011000110011100001000011100011011111
+# refmod: input A =  -533732517, input B =  -347681843, output OUT = work.top_sv_unit(fast)   185569105179588831
+# refmod: input A = 11100000001011111110001101011011, input B = 11101011010001101100101111001101, output OUT = 0000001010010011010001100001111000110011100001000011100011011111
+# UVM_INFO @ 225: reporter [MISCMP] Miscompare for exp.data: lhs = 'h293461e338438df : rhs = 'hce09f546338438df
+# UVM_INFO @ 225: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 225: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2531376513, input B = 3371244592, output OUT = work.DUT(fast) 8533889379767067696
+# mbe: input A = 10010110111000011011110110000001, input B = 11001000111100010001110000110000, output OUT = 0111011001101110011101110010110100101001011111101010010000110000
+# refmod: input A = -1763590783, input B =  -923722704, output OUT = work.top_sv_unit(fast)  1629068846822237232
+# refmod: input A = 10010110111000011011110110000001, input B = 11001000111100010001110000110000, output OUT = 0001011010011011100111010111110000101001011111101010010000110000
+# UVM_INFO @ 255: reporter [MISCMP] Miscompare for exp.data: lhs = 'h169b9d7c297ea430 : rhs = 'h766e772d297ea430
+# UVM_INFO @ 255: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 255: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3872680796, input B = 3462746173, output OUT = work.DUT(fast)13410110605599593708
+# mbe: input A = 11100110110101000110101101011100, input B = 11001110011001010101000000111101, output OUT = 1011101000011010010010001000101111000101011101100101010011101100
+# refmod: input A =  -422286500, input B =  -832221123, output OUT = work.top_sv_unit(fast)   351435745257739500
+# refmod: input A = 11100110110101000110101101011100, input B = 11001110011001010101000000111101, output OUT = 0000010011100000100011001111001011000101011101100101010011101100
+# UVM_INFO @ 285: reporter [MISCMP] Miscompare for exp.data: lhs = 'h4e08cf2c57654ec : rhs = 'hba1a488bc57654ec
+# UVM_INFO @ 285: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 285: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2373230244, input B = 2938263881, output OUT = work.DUT(fast) 6973176707242016964
+# mbe: input A = 10001101011101001001111010100100, input B = 10101111001000100101100101001001, output OUT = 0110000011000101101100110100010100001111001100000100000011000100
+# refmod: input A = -1921737052, input B = -1356703415, output OUT = work.top_sv_unit(fast)  2607227221180432580
+# refmod: input A = 10001101011101001001111010100100, input B = 10101111001000100101100101001001, output OUT = 0010010000101110101110110101100000001111001100000100000011000100
+# UVM_INFO @ 315: reporter [MISCMP] Miscompare for exp.data: lhs = 'h242ebb580f3040c4 : rhs = 'h60c5b3450f3040c4
+# UVM_INFO @ 315: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 315: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1541776121, input B = 1428688626, output OUT = work.DUT(fast) 2202718007911099746
+# mbe: input A = 01011011111001011010001011111001, input B = 01010101001010000000111011110010, output OUT = 0001111010010001101000000101101110010001111001011010110101100010
+# refmod: input A =  1541776121, input B =  1428688626, output OUT = work.top_sv_unit(fast)  2202718007911099746
+# refmod: input A = 01011011111001011010001011111001, input B = 01010101001010000000111011110010, output OUT = 0001111010010001101000000101101110010001111001011010110101100010
+# UVM_INFO @ 345: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 3393944429, input B = 3716857736, output OUT = work.DUT(fast)12614808606482752744
+# mbe: input A = 11001010010010110111101101101101, input B = 11011101100010101011111110001000, output OUT = 1010111100010000110011011001011101101010111100011110010011101000
+# refmod: input A =  -901022867, input B =  -578109560, output OUT = work.top_sv_unit(fast)   520889933191308520
+# refmod: input A = 11001010010010110111101101101101, input B = 11011101100010101011111110001000, output OUT = 0000011100111010100100101010001001101010111100011110010011101000
+# UVM_INFO @ 375: reporter [MISCMP] Miscompare for exp.data: lhs = 'h73a92a26af1e4e8 : rhs = 'haf10cd976af1e4e8
+# UVM_INFO @ 375: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 375: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1712994403, input B =  601358051, output OUT = work.DUT(fast) 1030122975561988553
+# mbe: input A = 01100110000110100011100001100011, input B = 00100011110101111111111011100011, output OUT = 0000111001001011101110110110001101110001010101110011100111001001
+# refmod: input A =  1712994403, input B =   601358051, output OUT = work.top_sv_unit(fast)  1030122975561988553
+# refmod: input A = 01100110000110100011100001100011, input B = 00100011110101111111111011100011, output OUT = 0000111001001011101110110110001101110001010101110011100111001001
+# UVM_INFO @ 405: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 3547324387, input B =  350842963, output OUT = work.DUT(fast) 1244553798657238681
+# mbe: input A = 11010011011011111101111111100011, input B = 00010100111010010111000001010011, output OUT = 0001000101000101100010110001011000000000110100111110011010011001
+# refmod: input A =  -747642909, input B =   350842963, output OUT = work.top_sv_unit(fast)  -262305253459499367
+# refmod: input A = 11010011011011111101111111100011, input B = 00010100111010010111000001010011, output OUT = 1111110001011100000110101100001100000000110100111110011010011001
+# UVM_INFO @ 435: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfc5c1ac300d3e699 : rhs = 'h11458b1600d3e699
+# UVM_INFO @ 435: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 435: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   91952929, input B = 1965175865, output OUT = work.DUT(fast)  180703676786858585
+# mbe: input A = 00000101011110110001011100100001, input B = 01110101001000100011010000111001, output OUT = 0000001010000001111111010000100101100000011111001101101001011001
+# refmod: input A =    91952929, input B =  1965175865, output OUT = work.top_sv_unit(fast)   180703676786858585
+# refmod: input A = 00000101011110110001011100100001, input B = 01110101001000100011010000111001, output OUT = 0000001010000001111111010000100101100000011111001101101001011001
+# UVM_INFO @ 465: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 3072927006, input B = 2608252870, output OUT = work.DUT(fast) 8014970682700007220
+# mbe: input A = 10110111001010010010010100011110, input B = 10011011011101101100011111000110, output OUT = 0110111100111010111001010101111011101011100000010000011100110100
+# refmod: input A = -1222040290, input B = -1686714426, output OUT = work.top_sv_unit(fast)  2061232986296223540
+# refmod: input A = 10110111001010010010010100011110, input B = 10011011011101101100011111000110, output OUT = 0001110010011010111110000111101011101011100000010000011100110100
+# UVM_INFO @ 495: reporter [MISCMP] Miscompare for exp.data: lhs = 'h1c9af87aeb810734 : rhs = 'h6f3ae55eeb810734
+# UVM_INFO @ 495: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 495: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  876184097, input B =  614306907, output OUT = work.DUT(fast)  538245942590657979
+# mbe: input A = 00110100001110011000001000100001, input B = 00100100100111011001010001011011, output OUT = 0000011101111000001110111101010101000001111010010101010110111011
+# refmod: input A =   876184097, input B =   614306907, output OUT = work.top_sv_unit(fast)   538245942590657979
+# refmod: input A = 00110100001110011000001000100001, input B = 00100100100111011001010001011011, output OUT = 0000011101111000001110111101010101000001111010010101010110111011
+# UVM_INFO @ 525: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1568767450, input B = 1075088082, output OUT = work.DUT(fast) 1686563188924530900
+# mbe: input A = 01011101100000010111110111011010, input B = 01000000000101001000101011010010, output OUT = 0001011101100111111000000100100011010111000110001100000011010100
+# refmod: input A =  1568767450, input B =  1075088082, output OUT = work.top_sv_unit(fast)  1686563188924530900
+# refmod: input A = 01011101100000010111110111011010, input B = 01000000000101001000101011010010, output OUT = 0001011101100111111000000100100011010111000110001100000011010100
+# UVM_INFO @ 555: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1678953407, input B =  444558830, output OUT = work.DUT(fast)  746393562240433810
+# mbe: input A = 01100100000100101100101110111111, input B = 00011010011111110110110111101110, output OUT = 0000101001011011101110001111110110000011111110101011111010010010
+# refmod: input A =  1678953407, input B =   444558830, output OUT = work.top_sv_unit(fast)   746393562240433810
+# refmod: input A = 01100100000100101100101110111111, input B = 00011010011111110110110111101110, output OUT = 0000101001011011101110001111110110000011111110101011111010010010
+# UVM_INFO @ 585: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1221817855, input B = 4159049667, output OUT = work.DUT(fast) 5081601142972404285
+# mbe: input A = 01001000110100110111010111111111, input B = 11110111111001100000111111000011, output OUT = 0100011010000101011110010101000011101001000101101101001000111101
+# refmod: input A =  1221817855, input B =  -135917629, output OUT = work.top_sv_unit(fast)  -166066585921465795
+# refmod: input A = 01001000110100110111010111111111, input B = 11110111111001100000111111000011, output OUT = 1111110110110010000000110101000111101001000101101101001000111101
+# UVM_INFO @ 615: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfdb20351e916d23d : rhs = 'h46857950e916d23d
+# UVM_INFO @ 615: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 615: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2630731409, input B =   42791131, output OUT = work.DUT(fast)  112571972348333579
+# mbe: input A = 10011100110011011100011010010001, input B = 00000010100011001111000011011011, output OUT = 0000000110001111111011111001110011000111011111001100111000001011
+# refmod: input A = -1664235887, input B =    42791131, output OUT = work.top_sv_unit(fast)   -71214535855518197
+# refmod: input A = 10011100110011011100011010010001, input B = 00000010100011001111000011011011, output OUT = 1111111100000010111111101100000111000111011111001100111000001011
+# UVM_INFO @ 645: reporter [MISCMP] Miscompare for exp.data: lhs = 'hff02fec1c77cce0b : rhs = 'h18fef9cc77cce0b
+# UVM_INFO @ 645: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 645: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2606837867, input B = 3476886790, output OUT = work.DUT(fast) 9063680143444076930
+# mbe: input A = 10011011011000010011000001101011, input B = 11001111001111010001010100000110, output OUT = 0111110111001000101010010001000110101011101111101110100110000010
+# refmod: input A = -1688129429, input B =  -818080506, output OUT = work.top_sv_unit(fast)  1381025777469811074
+# refmod: input A = 10011011011000010011000001101011, input B = 11001111001111010001010100000110, output OUT = 0001001100101010011000111010000010101011101111101110100110000010
+# UVM_INFO @ 675: reporter [MISCMP] Miscompare for exp.data: lhs = 'h132a63a0abbee982 : rhs = 'h7dc8a911abbee982
+# UVM_INFO @ 675: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 675: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3413573445, input B = 2073383015, output OUT = work.DUT(fast) 7077645201318036675
+# mbe: input A = 11001011011101101111111101000101, input B = 01111011100101010101000001100111, output OUT = 0110001000111000110110001100111111000110110011110100010011000011
+# refmod: input A =  -881393851, input B =  2073383015, output OUT = work.top_sv_unit(fast) -1827467040188840765
+# refmod: input A = 11001011011101101111111101000101, input B = 01111011100101010101000001100111, output OUT = 1110011010100011100010000110100011000110110011110100010011000011
+# UVM_INFO @ 705: reporter [MISCMP] Miscompare for exp.data: lhs = 'he6a38868c6cf44c3 : rhs = 'h6238d8cfc6cf44c3
+# UVM_INFO @ 705: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 705: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2799892819, input B = 3816473543, output OUT = work.DUT(fast)10685716866949187717
+# mbe: input A = 10100110111000101111100101010011, input B = 11100011011110101100001111000111, output OUT = 1001010001001011010010101110000000001000111010000000100010000101
+# refmod: input A = -1495074477, input B =  -478493753, output OUT = work.top_sv_unit(fast)   715383797514242181
+# refmod: input A = 10100110111000101111100101010011, input B = 11100011011110101100001111000111, output OUT = 0000100111101101100011011100011000001000111010000000100010000101
+# UVM_INFO @ 735: reporter [MISCMP] Miscompare for exp.data: lhs = 'h9ed8dc608e80885 : rhs = 'h944b4ae008e80885
+# UVM_INFO @ 735: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 735: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3038299759, input B = 3893807004, output OUT = work.DUT(fast)11830552881845712036
+# mbe: input A = 10110101000110001100011001101111, input B = 11101000000101101100011110011100, output OUT = 1010010000101110100100010010101001000010111000110011010010100100
+# refmod: input A = -1256667537, input B =  -401160292, output OUT = work.top_sv_unit(fast)   504125116089840804
+# refmod: input A = 10110101000110001100011001101111, input B = 11101000000101101100011110011100, output OUT = 0000011011111111000000110001111101000010111000110011010010100100
+# UVM_INFO @ 765: reporter [MISCMP] Miscompare for exp.data: lhs = 'h6ff031f42e334a4 : rhs = 'ha42e912a42e334a4
+# UVM_INFO @ 765: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 765: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1778436677, input B = 2353557030, output OUT = work.DUT(fast) 4185652143563189310
+# mbe: input A = 01101010000000001100101001000101, input B = 10001100010010000110111000100110, output OUT = 0011101000010110011011000111001010110010011011111010110000111110
+# refmod: input A =  1778436677, input B = -1941410266, output OUT = work.top_sv_unit(fast) -3452675222158726082
+# refmod: input A = 01101010000000001100101001000101, input B = 10001100010010000110111000100110, output OUT = 1101000000010101101000100010110110110010011011111010110000111110
+# UVM_INFO @ 795: reporter [MISCMP] Miscompare for exp.data: lhs = 'hd015a22db26fac3e : rhs = 'h3a166c72b26fac3e
+# UVM_INFO @ 795: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 795: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3087568070, input B =  357238882, output OUT = work.DUT(fast) 1102999365425697740
+# mbe: input A = 10111000000010001000110011000110, input B = 00010101010010110000100001100010, output OUT = 0000111101001110101001000001010000110011101011100001001111001100
+# refmod: input A = -1207399226, input B =   357238882, output OUT = work.top_sv_unit(fast)  -431329949623905332
+# refmod: input A = 10111000000010001000110011000110, input B = 00010101010010110000100001100010, output OUT = 1111101000000011100110111011001000110011101011100001001111001100
+# UVM_INFO @ 825: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfa039bb233ae13cc : rhs = 'hf4ea41433ae13cc
+# UVM_INFO @ 825: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 825: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3913605622, input B = 1385076643, output OUT = work.DUT(fast) 5420643736945686946
+# mbe: input A = 11101001010001001110000111110110, input B = 01010010100011101001011110100011, output OUT = 0100101100111001111111101100001001001010100101111111100110100010
+# refmod: input A =  -381361674, input B =  1385076643, output OUT = work.top_sv_unit(fast)  -528215147192780382
+# refmod: input A = 11101001010001001110000111110110, input B = 01010010100011101001011110100011, output OUT = 1111100010101011011001110001111101001010100101111111100110100010
+# UVM_INFO @ 855: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf8ab671f4a97f9a2 : rhs = 'h4b39fec24a97f9a2
+# UVM_INFO @ 855: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 855: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2067343682, input B =  977174398, output OUT = work.DUT(fast) 2020155317917453436
+# mbe: input A = 01111011001110010010100101000010, input B = 00111010001111100111111101111110, output OUT = 0001110000001001000010001000111011110011100101100000110001111100
+# refmod: input A =  2067343682, input B =   977174398, output OUT = work.top_sv_unit(fast)  2020155317917453436
+# refmod: input A = 01111011001110010010100101000010, input B = 00111010001111100111111101111110, output OUT = 0001110000001001000010001000111011110011100101100000110001111100
+# UVM_INFO @ 885: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  378808866, input B = 1032434645, output OUT = work.DUT(fast)  391095397091562570
+# mbe: input A = 00010110100101000010101000100010, input B = 00111101100010011011001111010101, output OUT = 0000010101101101011100110011000100001000111011101101010001001010
+# refmod: input A =   378808866, input B =  1032434645, output OUT = work.top_sv_unit(fast)   391095397091562570
+# refmod: input A = 00010110100101000010101000100010, input B = 00111101100010011011001111010101, output OUT = 0000010101101101011100110011000100001000111011101101010001001010
+# UVM_INFO @ 915: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 4125287197, input B = 2255869364, output OUT = work.DUT(fast) 9306109005413732708
+# mbe: input A = 11110101111000101110001100011101, input B = 10000110011101011101010110110100, output OUT = 1000000100100101111100001101010110100100101111111101000101100100
+# refmod: input A =  -169680099, input B = -2039097932, output OUT = work.top_sv_unit(fast)   345994338972455268
+# refmod: input A = 11110101111000101110001100011101, input B = 10000110011101011101010110110100, output OUT = 0000010011001101001110000000010010100100101111111101000101100100
+# UVM_INFO @ 945: reporter [MISCMP] Miscompare for exp.data: lhs = 'h4cd3804a4bfd164 : rhs = 'h8125f0d5a4bfd164
+# UVM_INFO @ 945: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 945: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  785484068, input B = 3294069295, output OUT = work.DUT(fast) 2587438950110492060
+# mbe: input A = 00101110110100011000100100100100, input B = 11000100010101111000001000101111, output OUT = 0010001111101000011011100000010000101011010110000111010110011100
+# refmod: input A =   785484068, input B = -1000898001, output OUT = work.top_sv_unit(fast)  -786189433478548068
+# refmod: input A = 00101110110100011000100100100100, input B = 11000100010101111000001000101111, output OUT = 1111010100010110111001001110000000101011010110000111010110011100
+# UVM_INFO @ 975: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf516e4e02b58759c : rhs = 'h23e86e042b58759c
+# UVM_INFO @ 975: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 975: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3061458211, input B = 2837765930, output OUT = work.DUT(fast) 8687701807294551230
+# mbe: input A = 10110110011110100010010100100011, input B = 10101001001001001101111100101010, output OUT = 0111100010010000111010101100001110101010010011111001010010111110
+# refmod: input A = -1233509085, input B = -1457201366, output OUT = work.top_sv_unit(fast)  1797471123635410110
+# refmod: input A = 10110110011110100010010100100011, input B = 10101001001001001101111100101010, output OUT = 0001100011110001111001100111011010101010010011111001010010111110
+# UVM_INFO @ 1005: reporter [MISCMP] Miscompare for exp.data: lhs = 'h18f1e676aa4f94be : rhs = 'h7890eac3aa4f94be
+# UVM_INFO @ 1005: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1005: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1544876891, input B = 1738059493, output OUT = work.DUT(fast) 2685087945918876263
+# mbe: input A = 01011100000101001111001101011011, input B = 01100111100110001010111011100101, output OUT = 0010010101000011010110010100001010110111001011011000101001100111
+# refmod: input A =  1544876891, input B =  1738059493, output OUT = work.top_sv_unit(fast)  2685087945918876263
+# refmod: input A = 01011100000101001111001101011011, input B = 01100111100110001010111011100101, output OUT = 0010010101000011010110010100001010110111001011011000101001100111
+# UVM_INFO @ 1035: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1961337323, input B = 2703619792, output OUT = work.DUT(fast) 5302710405251096816
+# mbe: input A = 01110100111001111010000111101011, input B = 10100001001001011111011011010000, output OUT = 0100100110010111000000110000010011000011110000100110000011110000
+# refmod: input A =  1961337323, input B = -1591347504, output OUT = work.top_sv_unit(fast) -3121169253458091792
+# refmod: input A = 01110100111001111010000111101011, input B = 10100001001001011111011011010000, output OUT = 1101010010101111011000010001100111000011110000100110000011110000
+# UVM_INFO @ 1065: reporter [MISCMP] Miscompare for exp.data: lhs = 'hd4af6119c3c260f0 : rhs = 'h49970304c3c260f0
+# UVM_INFO @ 1065: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1065: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1727143128, input B =  724064169, output OUT = work.DUT(fast) 1250562453719380632
+# mbe: input A = 01100110111100100001110011011000, input B = 00101011001010000101011110101001, output OUT = 0001000101011010111000111110110100000111011000100111001010011000
+# refmod: input A =  1727143128, input B =   724064169, output OUT = work.top_sv_unit(fast)  1250562453719380632
+# refmod: input A = 01100110111100100001110011011000, input B = 00101011001010000101011110101001, output OUT = 0001000101011010111000111110110100000111011000100111001010011000
+# UVM_INFO @ 1095: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  246654637, input B = 1595147461, output OUT = work.DUT(fast)  393450517954426657
+# mbe: input A = 00001110101100111010011010101101, input B = 01011111000101000000010011000101, output OUT = 0000010101110101110100010010100101010111010111011111011100100001
+# refmod: input A =   246654637, input B =  1595147461, output OUT = work.top_sv_unit(fast)   393450517954426657
+# refmod: input A = 00001110101100111010011010101101, input B = 01011111000101000000010011000101, output OUT = 0000010101110101110100010010100101010111010111011111011100100001
+# UVM_INFO @ 1125: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1646293169, input B = 3201576091, output OUT = work.DUT(fast) 5270732848647022379
+# mbe: input A = 01100010001000000111000010110001, input B = 10111110110101000010110010011011, output OUT = 0100100100100101011001111001100110101101100101101010011100101011
+# refmod: input A =  1646293169, input B = -1093391205, output OUT = work.top_sv_unit(fast) -1800042471836178645
+# refmod: input A = 01100010001000000111000010110001, input B = 10111110110101000010110010011011, output OUT = 1110011100000100111101101110100010101101100101101010011100101011
+# UVM_INFO @ 1155: reporter [MISCMP] Miscompare for exp.data: lhs = 'he704f6e8ad96a72b : rhs = 'h49256799ad96a72b
+# UVM_INFO @ 1155: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1155: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3948884356, input B = 1247084803, output OUT = work.DUT(fast) 4924593669172041868
+# mbe: input A = 11101011010111110011000110000100, input B = 01001010010101010000000100000011, output OUT = 0100010001010111101010111101100110111010001000110001100010001100
+# refmod: input A =  -346082940, input B =  1247084803, output OUT = work.top_sv_unit(fast)  -431594775051560820
+# refmod: input A = 11101011010111110011000110000100, input B = 01001010010101010000000100000011, output OUT = 1111101000000010101010101101011010111010001000110001100010001100
+# UVM_INFO @ 1185: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfa02aad6ba23188c : rhs = 'h4457abd9ba23188c
+# UVM_INFO @ 1185: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1185: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1637527070, input B =  818587330, output OUT = work.DUT(fast) 1340458912034023100
+# mbe: input A = 01100001100110101010111000011110, input B = 00110000110010101010011011000010, output OUT = 0001001010011010010001000100011101000111110010110110011010111100
+# refmod: input A =  1637527070, input B =   818587330, output OUT = work.top_sv_unit(fast)  1340458912034023100
+# refmod: input A = 01100001100110101010111000011110, input B = 00110000110010101010011011000010, output OUT = 0001001010011010010001000100011101000111110010110110011010111100
+# UVM_INFO @ 1215: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  268764860, input B = 2202569796, output OUT = work.DUT(fast)  591973362862168560
+# mbe: input A = 00010000000001010000011010111100, input B = 10000011010010001000110001000100, output OUT = 0000100000110111000111001010001100011001111001001001100111110000
+# refmod: input A =   268764860, input B = -2092397500, output OUT = work.top_sv_unit(fast)  -562362921151850000
+# refmod: input A = 00010000000001010000011010111100, input B = 10000011010010001000110001000100, output OUT = 1111100000110010000101011110011100011001111001001001100111110000
+# UVM_INFO @ 1245: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf83215e719e499f0 : rhs = 'h8371ca319e499f0
+# UVM_INFO @ 1245: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1245: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1106214409, input B = 4183870257, output OUT = work.DUT(fast) 4628257563679933113
+# mbe: input A = 01000001111011110111111000001001, input B = 11111001011000001100101100110001, output OUT = 0100000000111010110111111011101110001100001010000100001010111001
+# refmod: input A =  1106214409, input B =  -111097039, output OUT = work.top_sv_unit(fast)  -122897145339034951
+# refmod: input A = 01000001111011110111111000001001, input B = 11111001011000001100101100110001, output OUT = 1111111001001011011000011011001010001100001010000100001010111001
+# UVM_INFO @ 1275: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe4b61b28c2842b9 : rhs = 'h403adfbb8c2842b9
+# UVM_INFO @ 1275: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1275: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 4273562788, input B = 4156397442, output OUT = work.DUT(fast)17762625440269588296
+# mbe: input A = 11111110101110010110010010100100, input B = 11110111101111011001011110000010, output OUT = 1111011010000001100001011011101000111101100101011101011101001000
+# refmod: input A =   -21404508, input B =  -138569854, output OUT = work.top_sv_unit(fast)     2966019548501832
+# refmod: input A = 11111110101110010110010010100100, input B = 11110111101111011001011110000010, output OUT = 0000000000001010100010011001010000111101100101011101011101001000
+# UVM_INFO @ 1305: reporter [MISCMP] Miscompare for exp.data: lhs = 'ha89943d95d748 : rhs = 'hf68185ba3d95d748
+# UVM_INFO @ 1305: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1305: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1937459090, input B =  999367748, output OUT = work.DUT(fast) 1936234127615429320
+# mbe: input A = 01110011011110110100011110010010, input B = 00111011100100010010010001000100, output OUT = 0001101011011110111000101010111000110010100000011000101011001000
+# refmod: input A =  1937459090, input B =   999367748, output OUT = work.top_sv_unit(fast)  1936234127615429320
+# refmod: input A = 01110011011110110100011110010010, input B = 00111011100100010010010001000100, output OUT = 0001101011011110111000101010111000110010100000011000101011001000
+# UVM_INFO @ 1335: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 4036642459, input B = 1197094634, output OUT = work.DUT(fast) 4832243027045465006
+# mbe: input A = 11110000100110100100011010011011, input B = 01000111010110100011011011101010, output OUT = 0100001100001111100100110110111001000111011001110011101110101110
+# refmod: input A =  -258324837, input B =  1197094634, output OUT = work.top_sv_unit(fast)  -309239276201624658
+# refmod: input A = 11110000100110100100011010011011, input B = 01000111010110100011011011101010, output OUT = 1111101110110101010111001000010001000111011001110011101110101110
+# UVM_INFO @ 1365: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfbb55c8447673bae : rhs = 'h430f936e47673bae
+# UVM_INFO @ 1365: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1365: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3917401539, input B =  203933794, output OUT = work.DUT(fast)  798890558469708966
+# mbe: input A = 11101001011111101100110111000011, input B = 00001100001001111100100001100010, output OUT = 0000101100010110001110101011101011110000000000000001110010100110
+# refmod: input A =  -377565757, input B =   203933794, output OUT = work.top_sv_unit(fast)   -76998417309492058
+# refmod: input A = 11101001011111101100110111000011, input B = 00001100001001111100100001100010, output OUT = 1111111011101110011100100101100011110000000000000001110010100110
+# UVM_INFO @ 1395: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfeee7258f0001ca6 : rhs = 'hb163abaf0001ca6
+# UVM_INFO @ 1395: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1395: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1881716334, input B = 3244053105, output OUT = work.DUT(fast) 6104387716041917070
+# mbe: input A = 01110000001010001011011001101110, input B = 11000001010111000101001001110001, output OUT = 0101010010110111001001000100100100001001111011111100001010001110
+# refmod: input A =  1881716334, input B = -1050914191, output OUT = work.top_sv_unit(fast) -1977522398837095794
+# refmod: input A = 01110000001010001011011001101110, input B = 11000001010111000101001001110001, output OUT = 1110010010001110011011011101101100001001111011111100001010001110
+# UVM_INFO @ 1425: reporter [MISCMP] Miscompare for exp.data: lhs = 'he48e6ddb09efc28e : rhs = 'h54b7244909efc28e
+# UVM_INFO @ 1425: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1425: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1774463054, input B = 1288052871, output OUT = work.DUT(fast) 2285602231188128034
+# mbe: input A = 01101001110001000010100001001110, input B = 01001100110001100010000010000111, output OUT = 0001111110111000000101110001111010011111110011110000000100100010
+# refmod: input A =  1774463054, input B =  1288052871, output OUT = work.top_sv_unit(fast)  2285602231188128034
+# refmod: input A = 01101001110001000010100001001110, input B = 01001100110001100010000010000111, output OUT = 0001111110111000000101110001111010011111110011110000000100100010
+# UVM_INFO @ 1455: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1436771488, input B = 3619934878, output OUT = work.DUT(fast) 5201019221127158464
+# mbe: input A = 01010101101000110110010010100000, input B = 11010111110000111101001010011110, output OUT = 0100100000101101101110110110110011101001010000110101101011000000
+# refmod: input A =  1436771488, input B =  -675032418, output OUT = work.top_sv_unit(fast)  -969867331658097984
+# refmod: input A = 01010101101000110110010010100000, input B = 11010111110000111101001010011110, output OUT = 1111001010001010010101101100110011101001010000110101101011000000
+# UVM_INFO @ 1485: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf28a56cce9435ac0 : rhs = 'h482dbb6ce9435ac0
+# UVM_INFO @ 1485: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1485: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1111989750, input B = 1067334004, output OUT = work.DUT(fast) 1186864472274459000
+# mbe: input A = 01000010010001111001110111110110, input B = 00111111100111100011100101110100, output OUT = 0001000001111000100101101111001100000010011100110101100101111000
+# refmod: input A =  1111989750, input B =  1067334004, output OUT = work.top_sv_unit(fast)  1186864472274459000
+# refmod: input A = 01000010010001111001110111110110, input B = 00111111100111100011100101110100, output OUT = 0001000001111000100101101111001100000010011100110101100101111000
+# UVM_INFO @ 1515: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 3261521793, input B = 4024224161, output OUT = work.DUT(fast)13125094801018640673
+# mbe: input A = 11000010011001101101111110000001, input B = 11101111110111001100100110100001, output OUT = 1011011000100101101101000010111010001010000010101101100100100001
+# refmod: input A = -1033445503, input B =  -270743135, output OUT = work.top_sv_unit(fast)   279798275333871905
+# refmod: input A = 11000010011001101101111110000001, input B = 11101111110111001100100110100001, output OUT = 0000001111100010000010110000110010001010000010101101100100100001
+# UVM_INFO @ 1545: reporter [MISCMP] Miscompare for exp.data: lhs = 'h3e20b0c8a0ad921 : rhs = 'hb625b42e8a0ad921
+# UVM_INFO @ 1545: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1545: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3185942541, input B = 2563643218, output OUT = work.DUT(fast) 8167619988172336938
+# mbe: input A = 10111101111001011010000000001101, input B = 10011000110011100001011101010010, output OUT = 0111000101011001001101110001101011110111011001000110111100101010
+# refmod: input A = -1109024755, input B = -1731324078, output OUT = work.top_sv_unit(fast)  1920081261429550890
+# refmod: input A = 10111101111001011010000000001101, input B = 10011000110011100001011101010010, output OUT = 0001101010100101011111111011101111110111011001000110111100101010
+# UVM_INFO @ 1575: reporter [MISCMP] Miscompare for exp.data: lhs = 'h1aa57fbbf7646f2a : rhs = 'h7159371af7646f2a
+# UVM_INFO @ 1575: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1575: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3631628400, input B = 3195793936, output OUT = work.DUT(fast)11605936018525382400
+# mbe: input A = 11011000011101100100000001110000, input B = 10111110011110111111001000010000, output OUT = 1010000100010000100100010101000101100110000111011110011100000000
+# refmod: input A =  -663338896, input B = -1099173360, output OUT = work.top_sv_unit(fast)   729124443135010560
+# refmod: input A = 11011000011101100100000001110000, input B = 10111110011110111111001000010000, output OUT = 0000101000011110010111101101000101100110000111011110011100000000
+# UVM_INFO @ 1605: reporter [MISCMP] Miscompare for exp.data: lhs = 'ha1e5ed1661de700 : rhs = 'ha1109151661de700
+# UVM_INFO @ 1605: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1605: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   48072737, input B = 2635766235, output OUT = work.DUT(fast)  126708497008635195
+# mbe: input A = 00000010110111011000100000100001, input B = 10011101000110101001100111011011, output OUT = 0000000111000010001010001011010011101010001110010010110100111011
+# refmod: input A =    48072737, input B = -1659201061, output OUT = work.top_sv_unit(fast)   -79762336235573957
+# refmod: input A = 00000010110111011000100000100001, input B = 10011101000110101001100111011011, output OUT = 1111111011100100101000001001001111101010001110010010110100111011
+# UVM_INFO @ 1635: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfee4a093ea392d3b : rhs = 'h1c228b4ea392d3b
+# UVM_INFO @ 1635: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1635: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   69971449, input B = 2520594892, output OUT = work.DUT(fast)  176369676935238508
+# mbe: input A = 00000100001010111010110111111001, input B = 10010110001111010011100111001100, output OUT = 0000001001110010100101110100100101100110111000000001001101101100
+# refmod: input A =    69971449, input B = -1774372404, output OUT = work.top_sv_unit(fast)  -124155408173493396
+# refmod: input A = 00000100001010111010110111111001, input B = 10010110001111010011100111001100, output OUT = 1111111001000110111010010101000001100110111000000001001101101100
+# UVM_INFO @ 1665: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe46e95066e0136c : rhs = 'h272974966e0136c
+# UVM_INFO @ 1665: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1665: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1953219277, input B = 1325665225, output OUT = work.DUT(fast) 2589314872318542325
+# mbe: input A = 01110100011010111100001011001101, input B = 01001111000001000000101111001001, output OUT = 0010001111101111000110000010100001011000001011101100000111110101
+# refmod: input A =  1953219277, input B =  1325665225, output OUT = work.top_sv_unit(fast)  2589314872318542325
+# refmod: input A = 01110100011010111100001011001101, input B = 01001111000001000000101111001001, output OUT = 0010001111101111000110000010100001011000001011101100000111110101
+# UVM_INFO @ 1695: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1036759395, input B = 3326597267, output OUT = work.DUT(fast) 3448880969943573465
+# mbe: input A = 00111101110010111011000101100011, input B = 11000110010001111101100010010011, output OUT = 0010111111011100111000101111100000011110000101110110001111011001
+# refmod: input A =  1036759395, input B =  -968370029, output OUT = work.top_sv_unit(fast) -1003966725402172455
+# refmod: input A = 00111101110010111011000101100011, input B = 11000110010001111101100010010011, output OUT = 1111001000010001001100011001010100011110000101110110001111011001
+# UVM_INFO @ 1725: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf21131951e1763d9 : rhs = 'h2fdce2f81e1763d9
+# UVM_INFO @ 1725: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1725: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  938463625, input B = 2396117996, output OUT = work.DUT(fast) 2248669580453895500
+# mbe: input A = 00110111111011111101000110001001, input B = 10001110110100011101101111101100, output OUT = 0001111100110100111000010001000111001000001011100101110101001100
+# refmod: input A =   938463625, input B = -1898849300, output OUT = work.top_sv_unit(fast) -1782000997406712500
+# refmod: input A = 00110111111011111101000110001001, input B = 10001110110100011101101111101100, output OUT = 1110011101000101000011111000100011001000001011100101110101001100
+# UVM_INFO @ 1755: reporter [MISCMP] Miscompare for exp.data: lhs = 'he7450f88c82e5d4c : rhs = 'h1f34e111c82e5d4c
+# UVM_INFO @ 1755: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1755: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3512808076, input B = 2967625437, output OUT = work.DUT(fast)10424698601636629212
+# mbe: input A = 11010001011000010011001010001100, input B = 10110000111000100101111011011101, output OUT = 1001000010101011111110000010010101010001000100000000101011011100
+# refmod: input A =  -782159220, input B = -1327341859, output OUT = work.top_sv_unit(fast)  1038192673108789980
+# refmod: input A = 11010001011000010011001010001100, input B = 10110000111000100101111011011101, output OUT = 0000111001101000011001101011110001010001000100000000101011011100
+# UVM_INFO @ 1785: reporter [MISCMP] Miscompare for exp.data: lhs = 'he6866bc51100adc : rhs = 'h90abf82551100adc
+# UVM_INFO @ 1785: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1785: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3335520344, input B = 1734826974, output OUT = work.DUT(fast) 5786550665096959056
+# mbe: input A = 11000110110100000000000001011000, input B = 01100111011001110101101111011110, output OUT = 0101000001001101111101010010101111100011111001111001010001010000
+# refmod: input A =  -959446952, input B =  1734826974, output OUT = work.top_sv_unit(fast) -1664474452451683248
+# refmod: input A = 11000110110100000000000001011000, input B = 01100111011001110101101111011110, output OUT = 1110100011100110100110010100110111100011111001111001010001010000
+# UVM_INFO @ 1815: reporter [MISCMP] Miscompare for exp.data: lhs = 'he8e6994de3e79450 : rhs = 'h504df52be3e79450
+# UVM_INFO @ 1815: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1815: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  874323444, input B = 3339903393, output OUT = work.DUT(fast) 2920155837195045492
+# mbe: input A = 00110100000111010001110111110100, input B = 11000111000100101110000110100001, output OUT = 0010100010000110011110100100001100100100110010110100101001110100
+# refmod: input A =   874323444, input B =  -955063903, output OUT = work.top_sv_unit(fast)  -835034760911041932
+# refmod: input A = 00110100000111010001110111110100, input B = 11000111000100101110000110100001, output OUT = 1111010001101001010111000100111100100100110010110100101001110100
+# UVM_INFO @ 1845: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf4695c4f24cb4a74 : rhs = 'h28867a4324cb4a74
+# UVM_INFO @ 1845: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1845: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1778563994, input B = 3890478202, output OUT = work.DUT(fast) 6919464449519058788
+# mbe: input A = 01101010000000101011101110011010, input B = 11100111111000111111110001111010, output OUT = 0110000000000110111000000100000110000101100001101111111101100100
+# refmod: input A =  1778563994, input B =  -404489094, output OUT = work.top_sv_unit(fast)  -719409738554081436
+# refmod: input A = 01101010000000101011101110011010, input B = 11100111111000111111110001111010, output OUT = 1111011000000100001001001010011110000101100001101111111101100100
+# UVM_INFO @ 1875: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf60424a78586ff64 : rhs = 'h6006e0418586ff64
+# UVM_INFO @ 1875: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1875: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  966729293, input B = 1390763847, output OUT = work.DUT(fast) 1344492150540270171
+# mbe: input A = 00111001100111110001111001001101, input B = 01010010111001010101111101000111, output OUT = 0001001010101000100110000111110011001100010000001111101001011011
+# refmod: input A =   966729293, input B =  1390763847, output OUT = work.top_sv_unit(fast)  1344492150540270171
+# refmod: input A = 00111001100111110001111001001101, input B = 01010010111001010101111101000111, output OUT = 0001001010101000100110000111110011001100010000001111101001011011
+# UVM_INFO @ 1905: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 4060926317, input B =  532341165, output OUT = work.DUT(fast) 2161798246570939305
+# mbe: input A = 11110010000011001101000101101101, input B = 00011111101110101110000110101101, output OUT = 0001111000000000010000000000110100110010111011000101001110101001
+# refmod: input A =  -234040979, input B =   532341165, output OUT = work.top_sv_unit(fast)  -124589647418600535
+# refmod: input A = 11110010000011001101000101101101, input B = 00011111101110101110000110101101, output OUT = 1111111001000101010111100110000000110010111011000101001110101001
+# UVM_INFO @ 1935: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe455e6032ec53a9 : rhs = 'h1e00400d32ec53a9
+# UVM_INFO @ 1935: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1935: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2012210426, input B =  115068029, output OUT = work.DUT(fast)  231541087653070354
+# mbe: input A = 01110111111011111110010011111010, input B = 00000110110110111100110001111101, output OUT = 0000001100110110100110010110010001111000011110000000011000010010
+# refmod: input A =  2012210426, input B =   115068029, output OUT = work.top_sv_unit(fast)   231541087653070354
+# refmod: input A = 01110111111011111110010011111010, input B = 00000110110110111100110001111101, output OUT = 0000001100110110100110010110010001111000011110000000011000010010
+# UVM_INFO @ 1965: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 2768212564, input B = 4037103683, output OUT = work.DUT(fast)11175561137451273212
+# mbe: input A = 10100100111111111001001001010100, input B = 11110000101000010101000001000011, output OUT = 1001101100010111100100011010010011010011011100011000101111111100
+# refmod: input A = -1526754732, input B =  -257863613, output OUT = work.top_sv_unit(fast)   393694491358366716
+# refmod: input A = 10100100111111111001001001010100, input B = 11110000101000010101000001000011, output OUT = 0000010101110110101011110000110111010011011100011000101111111100
+# UVM_INFO @ 1995: reporter [MISCMP] Miscompare for exp.data: lhs = 'h576af0dd3718bfc : rhs = 'h9b1791a4d3718bfc
+# UVM_INFO @ 1995: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1995: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  933122992, input B = 2098971737, output OUT = work.DUT(fast) 1958598787352877104
+# mbe: input A = 00110111100111100101001110110000, input B = 01111101000110111100010001011001, output OUT = 0001101100101110010101110011100001010001101011011101100000110000
+# refmod: input A =   933122992, input B =  2098971737, output OUT = work.top_sv_unit(fast)  1958598787352877104
+# refmod: input A = 00110111100111100101001110110000, input B = 01111101000110111100010001011001, output OUT = 0001101100101110010101110011100001010001101011011101100000110000
+# UVM_INFO @ 2025: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  313422485, input B = 4215900269, output OUT = work.DUT(fast) 1321357938822148465
+# mbe: input A = 00010010101011100111001010010101, input B = 11111011010010011000100001101101, output OUT = 0001001001010110011010000000101101100100101000101111000101110001
+# refmod: input A =   313422485, input B =   -79067027, output OUT = work.top_sv_unit(fast)   -24781384083902095
+# refmod: input A = 00010010101011100111001010010101, input B = 11111011010010011000100001101101, output OUT = 1111111110100111111101010111011001100100101000101111000101110001
+# UVM_INFO @ 2055: reporter [MISCMP] Miscompare for exp.data: lhs = 'hffa7f57664a2f171 : rhs = 'h1256680b64a2f171
+# UVM_INFO @ 2055: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2055: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1802088037, input B = 2796591820, output OUT = work.DUT(fast) 5039704663194057340
+# mbe: input A = 01101011011010011010111001100101, input B = 10100110101100001001101011001100, output OUT = 0100010111110000101000001011000010001110100011111011101001111100
+# refmod: input A =  1802088037, input B = -1498375476, output OUT = work.top_sv_unit(fast) -2700204520233780612
+# refmod: input A = 01101011011010011010111001100101, input B = 10100110101100001001101011001100, output OUT = 1101101010000110111100100100101110001110100011111011101001111100
+# UVM_INFO @ 2085: reporter [MISCMP] Miscompare for exp.data: lhs = 'hda86f24b8e8fba7c : rhs = 'h45f0a0b08e8fba7c
+# UVM_INFO @ 2085: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2085: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  346790413, input B =  750725250, output OUT = work.DUT(fast)  260344319497028250
+# mbe: input A = 00010100101010111001101000001101, input B = 00101100101111110010100010000010, output OUT = 0000001110011100111011011100011101111010111010010100001010011010
+# refmod: input A =   346790413, input B =   750725250, output OUT = work.top_sv_unit(fast)   260344319497028250
+# refmod: input A = 00010100101010111001101000001101, input B = 00101100101111110010100010000010, output OUT = 0000001110011100111011011100011101111010111010010100001010011010
+# UVM_INFO @ 2115: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 3780118678, input B = 1114402596, output OUT = work.DUT(fast) 4212574067951288088
+# mbe: input A = 11100001010100000000100010010110, input B = 01000010011011000110111100100100, output OUT = 0011101001110110000100011100101110101110010000100011111100011000
+# refmod: input A =  -514848618, input B =  1114402596, output OUT = work.top_sv_unit(fast)  -573748636446212328
+# refmod: input A = 11100001010100000000100010010110, input B = 01000010011011000110111100100100, output OUT = 1111100000001001101000101010011110101110010000100011111100011000
+# UVM_INFO @ 2145: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf809a2a7ae423f18 : rhs = 'h3a7611cbae423f18
+# UVM_INFO @ 2145: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2145: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1990144937, input B = 1391108412, output OUT = work.DUT(fast) 2768507362959910044
+# mbe: input A = 01110110100111110011001110101001, input B = 01010010111010101010000100111100, output OUT = 0010011001101011101101101100011101000111010001110110010010011100
+# refmod: input A =  1990144937, input B =  1391108412, output OUT = work.top_sv_unit(fast)  2768507362959910044
+# refmod: input A = 01110110100111110011001110101001, input B = 01010010111010101010000100111100, output OUT = 0010011001101011101101101100011101000111010001110110010010011100
+# UVM_INFO @ 2175: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 3375468462, input B = 4046958009, output OUT = work.DUT(fast)13660379126417812158
+# mbe: input A = 11001001001100011000111110101110, input B = 11110001001101111010110110111001, output OUT = 1011110110010011011010100111000010001111010010110110101010111110
+# refmod: input A =  -919498834, input B =  -248009287, output OUT = work.top_sv_unit(fast)   228044250217671358
+# refmod: input A = 11001001001100011000111110101110, input B = 11110001001101111010110110111001, output OUT = 0000001100101010001011010000100110001111010010110110101010111110
+# UVM_INFO @ 2205: reporter [MISCMP] Miscompare for exp.data: lhs = 'h32a2d098f4b6abe : rhs = 'hbd936a708f4b6abe
+# UVM_INFO @ 2205: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2205: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2182487058, input B = 1139990756, output OUT = work.DUT(fast) 2488015071209635848
+# mbe: input A = 10000010000101100001110000010010, input B = 01000011111100101110000011100100, output OUT = 0010001010000111001101001000011001110011010001001100000000001000
+# refmod: input A = -2112480238, input B =  1139990756, output OUT = work.top_sv_unit(fast) -2408207943552679928
+# refmod: input A = 10000010000101100001110000010010, input B = 01000011111100101110000011100100, output OUT = 1101111010010100010100111010001001110011010001001100000000001000
+# UVM_INFO @ 2235: reporter [MISCMP] Miscompare for exp.data: lhs = 'hde9453a27344c008 : rhs = 'h228734867344c008
+# UVM_INFO @ 2235: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2235: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  902816708, input B = 3051120533, output OUT = work.DUT(fast) 2754602595314265364
+# mbe: input A = 00110101110011111110001111000100, input B = 10110101110111000110011110010101, output OUT = 0010011000111010010100000111011101000111000100110110110100010100
+# refmod: input A =   902816708, input B = -1243846763, output OUT = work.top_sv_unit(fast) -1122965639828116204
+# refmod: input A = 00110101110011111110001111000100, input B = 10110101110111000110011110010101, output OUT = 1111000001101010011011001011001101000111000100110110110100010100
+# UVM_INFO @ 2265: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf06a6cb347136d14 : rhs = 'h263a507747136d14
+# UVM_INFO @ 2265: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2265: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1667800056, input B = 3385507164, output OUT = work.DUT(fast) 5646349037707601184
+# mbe: input A = 01100011011010001001101111111000, input B = 11001001110010101011110101011100, output OUT = 0100111001011011110111001000100010111110011011100010010100100000
+# refmod: input A =  1667800056, input B =  -909460132, output OUT = work.top_sv_unit(fast) -1516797659079367392
+# refmod: input A = 01100011011010001001101111111000, input B = 11001001110010101011110101011100, output OUT = 1110101011110011010000001001000010111110011011100010010100100000
+# UVM_INFO @ 2295: reporter [MISCMP] Miscompare for exp.data: lhs = 'heaf34090be6e2520 : rhs = 'h4e5bdc88be6e2520
+# UVM_INFO @ 2295: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2295: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  955752890, input B =  479675176, output OUT = work.DUT(fast)  458450935723258640
+# mbe: input A = 00111000111101111010000110111010, input B = 00011100100101110100001100101000, output OUT = 0000011001011100101111101011001001110010101110101111001100010000
+# refmod: input A =   955752890, input B =   479675176, output OUT = work.top_sv_unit(fast)   458450935723258640
+# refmod: input A = 00111000111101111010000110111010, input B = 00011100100101110100001100101000, output OUT = 0000011001011100101111101011001001110010101110101111001100010000
+# UVM_INFO @ 2325: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  727585398, input B = 2502166709, output OUT = work.DUT(fast) 1820539960830115182
+# mbe: input A = 00101011010111100001001001110110, input B = 10010101001001000000100010110101, output OUT = 0001100101000011110110110111001011100000101011101011110101101110
+# refmod: input A =   727585398, input B = -1792800587, output OUT = work.top_sv_unit(fast) -1304415528627028626
+# refmod: input A = 00101011010111100001001001110110, input B = 10010101001001000000100010110101, output OUT = 1110110111100101110010001111110011100000101011101011110101101110
+# UVM_INFO @ 2355: reporter [MISCMP] Miscompare for exp.data: lhs = 'hede5c8fce0aebd6e : rhs = 'h1943db72e0aebd6e
+# UVM_INFO @ 2355: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2355: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 4077579070, input B =  306376976, output OUT = work.DUT(fast) 1249276344867492320
+# mbe: input A = 11110011000010101110101100111110, input B = 00010010010000101111000100010000, output OUT = 0001000101010110010100100011011101111010001000000001000111100000
+# refmod: input A =  -217388226, input B =   306376976, output OUT = work.top_sv_unit(fast)   -66602747299884576
+# refmod: input A = 11110011000010101110101100111110, input B = 00010010010000101111000100010000, output OUT = 1111111100010011011000010010011101111010001000000001000111100000
+# UVM_INFO @ 2385: reporter [MISCMP] Miscompare for exp.data: lhs = 'hff1361277a2011e0 : rhs = 'h115652377a2011e0
+# UVM_INFO @ 2385: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2385: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2058741458, input B =  559782854, output OUT = work.DUT(fast) 1152448169007361132
+# mbe: input A = 01111010101101011110011011010010, input B = 00100001010111011001101111000110, output OUT = 0000111111111110010100011000000011110111101110111010110001101100
+# refmod: input A =  2058741458, input B =   559782854, output OUT = work.top_sv_unit(fast)  1152448169007361132
+# refmod: input A = 01111010101101011110011011010010, input B = 00100001010111011001101111000110, output OUT = 0000111111111110010100011000000011110111101110111010110001101100
+# UVM_INFO @ 2415: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1842724951, input B = 1643266412, output OUT = work.DUT(fast) 3028088018532645812
+# mbe: input A = 01101101110101011100000001010111, input B = 01100001111100100100000101101100, output OUT = 0010101000000101111011100000001001100101010000010011101110110100
+# refmod: input A =  1842724951, input B =  1643266412, output OUT = work.top_sv_unit(fast)  3028088018532645812
+# refmod: input A = 01101101110101011100000001010111, input B = 01100001111100100100000101101100, output OUT = 0010101000000101111011100000001001100101010000010011101110110100
+# UVM_INFO @ 2445: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  745512450, input B =  882143519, output OUT = work.DUT(fast)  657648976101311550
+# mbe: input A = 00101100011011111001111000000010, input B = 00110100100101000111000100011111, output OUT = 0000100100100000011100000100001001100111011010110000010000111110
+# refmod: input A =   745512450, input B =   882143519, output OUT = work.top_sv_unit(fast)   657648976101311550
+# refmod: input A = 00101100011011111001111000000010, input B = 00110100100101000111000100011111, output OUT = 0000100100100000011100000100001001100111011010110000010000111110
+# UVM_INFO @ 2475: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  625629788, input B = 1403686096, output OUT = work.DUT(fast)  878187834659027648
+# mbe: input A = 00100101010010100101101001011100, input B = 01010011101010101000110011010000, output OUT = 0000110000101111111100110010111011001010111010111011101011000000
+# refmod: input A =   625629788, input B =  1403686096, output OUT = work.top_sv_unit(fast)   878187834659027648
+# refmod: input A = 00100101010010100101101001011100, input B = 01010011101010101000110011010000, output OUT = 0000110000101111111100110010111011001010111010111011101011000000
+# UVM_INFO @ 2505: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1480563644, input B = 2609124198, output OUT = work.DUT(fast) 3862974430239457512
+# mbe: input A = 01011000001111111001101110111100, input B = 10011011100001000001001101100110, output OUT = 0011010110011100000010101100011100000010110101110000000011101000
+# refmod: input A =  1480563644, input B = -1685843098, output OUT = work.top_sv_unit(fast) -2495998000387129112
+# refmod: input A = 01011000001111111001101110111100, input B = 10011011100001000001001101100110, output OUT = 1101110101011100011011110000101100000010110101110000000011101000
+# UVM_INFO @ 2535: reporter [MISCMP] Miscompare for exp.data: lhs = 'hdd5c6f0b02d700e8 : rhs = 'h359c0ac702d700e8
+# UVM_INFO @ 2535: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2535: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2915095765, input B = 3772653907, output OUT = work.DUT(fast)10997647427106403855
+# mbe: input A = 10101101110000001101010011010101, input B = 11100000110111100010000101010011, output OUT = 1001100010011111011111100001000100100001101010100111011000001111
+# refmod: input A = -1379871531, input B =  -522313389, output OUT = work.top_sv_unit(fast)   720725375741228559
+# refmod: input A = 10101101110000001101010011010101, input B = 11100000110111100010000101010011, output OUT = 0000101000000000100001111110100100100001101010100111011000001111
+# UVM_INFO @ 2565: reporter [MISCMP] Miscompare for exp.data: lhs = 'ha0087e921aa760f : rhs = 'h989f7e1121aa760f
+# UVM_INFO @ 2565: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2565: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  963515151, input B = 1687302410, output OUT = work.DUT(fast) 1625741436353813910
+# mbe: input A = 00111001011011100001001100001111, input B = 01100100100100100011000100001010, output OUT = 0001011010001111110010110011100100001010100000001001110110010110
+# refmod: input A =   963515151, input B =  1687302410, output OUT = work.top_sv_unit(fast)  1625741436353813910
+# refmod: input A = 00111001011011100001001100001111, input B = 01100100100100100011000100001010, output OUT = 0001011010001111110010110011100100001010100000001001110110010110
+# UVM_INFO @ 2595: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 4072522225, input B =  990904340, output OUT = work.DUT(fast) 4035479947498956500
+# mbe: input A = 11110010101111011100000111110001, input B = 00111011000100000000000000010100, output OUT = 0011100000000000111001111010000110100000111000110010011011010100
+# refmod: input A =  -222445071, input B =   990904340, output OUT = work.top_sv_unit(fast)  -220421786265508140
+# refmod: input A = 11110010101111011100000111110001, input B = 00111011000100000000000000010100, output OUT = 1111110011110000111001111000110110100000111000110010011011010100
+# UVM_INFO @ 2625: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfcf0e78da0e326d4 : rhs = 'h3800e7a1a0e326d4
+# UVM_INFO @ 2625: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2625: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2266234411, input B = 3799386553, output OUT = work.DUT(fast) 8610300547099275283
+# mbe: input A = 10000111000100111111111000101011, input B = 11100010011101100000100110111001, output OUT = 0111011101111101111011101011101001101111001101000011000000010011
+# refmod: input A = -2028732885, input B =  -495580743, output OUT = work.top_sv_unit(fast)  1005400950496833555
+# refmod: input A = 10000111000100111111111000101011, input B = 11100010011101100000100110111001, output OUT = 0000110111110011111001101101011001101111001101000011000000010011
+# UVM_INFO @ 2655: reporter [MISCMP] Miscompare for exp.data: lhs = 'hdf3e6d66f343013 : rhs = 'h777deeba6f343013
+# UVM_INFO @ 2655: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2655: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2320333338, input B = 1595393519, output OUT = work.DUT(fast) 3701844769364836422
+# mbe: input A = 10001010010011010111101000011010, input B = 01011111000101111100010111101111, output OUT = 0011001101011111100110000011010001011011101000010000000001000110
+# refmod: input A = -1974633958, input B =  1595393519, output OUT = work.top_sv_unit(fast) -3150318218990518202
+# refmod: input A = 10001010010011010111101000011010, input B = 01011111000101111100010111101111, output OUT = 1101010001000111110100100100010101011011101000010000000001000110
+# UVM_INFO @ 2685: reporter [MISCMP] Miscompare for exp.data: lhs = 'hd447d2455ba10046 : rhs = 'h335f98345ba10046
+# UVM_INFO @ 2685: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2685: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3859349243, input B =  565725749, output OUT = work.DUT(fast) 2183333241148758007
+# mbe: input A = 11100110000010001111111011111011, input B = 00100001101110000100101000110101, output OUT = 0001111001001100110000100000001111011000111110010101011111110111
+# refmod: input A =  -435618053, input B =   565725749, output OUT = work.top_sv_unit(fast)  -246440349311346697
+# refmod: input A = 11100110000010001111111011111011, input B = 00100001101110000100101000110101, output OUT = 1111110010010100011101111100111011011000111110010101011111110111
+# UVM_INFO @ 2715: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfc9477ced8f957f7 : rhs = 'h1e4cc203d8f957f7
+# UVM_INFO @ 2715: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2715: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1846239052, input B =  928372228, output OUT = work.DUT(fast) 1713997062125847856
+# mbe: input A = 01101110000010110101111101001100, input B = 00110111010101011101011000000100, output OUT = 0001011111001001010101110011111100110010000100110000010100110000
+# refmod: input A =  1846239052, input B =   928372228, output OUT = work.top_sv_unit(fast)  1713997062125847856
+# refmod: input A = 01101110000010110101111101001100, input B = 00110111010101011101011000000100, output OUT = 0001011111001001010101110011111100110010000100110000010100110000
+# UVM_INFO @ 2745: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 1819764520, input B = 2176397589, output OUT = work.DUT(fast) 3960531113875742280
+# mbe: input A = 01101100011101110110011100101000, input B = 10000001101110010011000100010101, output OUT = 0011011011110110101000100001000001110100011100100001111001001000
+# refmod: input A =  1819764520, input B = -2118569707, output OUT = work.top_sv_unit(fast) -3855297985945395640
+# refmod: input A = 01101100011101110110011100101000, input B = 10000001101110010011000100010101, output OUT = 1100101001111111001110101110100001110100011100100001111001001000
+# UVM_INFO @ 2775: reporter [MISCMP] Miscompare for exp.data: lhs = 'hca7f3ae874721e48 : rhs = 'h36f6a21074721e48
+# UVM_INFO @ 2775: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2775: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 3564825784, input B =  486531432, output OUT = work.DUT(fast) 1734399793520042688
+# mbe: input A = 11010100011110101110110010111000, input B = 00011100111111111110000101101000, output OUT = 0001100000010001110100110110110001000111010001011110001011000000
+# refmod: input A =  -730141512, input B =   486531432, output OUT = work.top_sv_unit(fast)  -355236795396005184
+# refmod: input A = 11010100011110101110110010111000, input B = 00011100111111111110000101101000, output OUT = 1111101100010001111100100000010001000111010001011110001011000000
+# UVM_INFO @ 2805: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfb11f2044745e2c0 : rhs = 'h1811d36c4745e2c0
+# UVM_INFO @ 2805: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2805: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  836122450, input B =  646701563, output OUT = work.DUT(fast)  540721695274389350
+# mbe: input A = 00110001110101100011011101010010, input B = 00100110100010111110000111111011, output OUT = 0000011110000001000001111000010001011001001011010100111101100110
+# refmod: input A =   836122450, input B =   646701563, output OUT = work.top_sv_unit(fast)   540721695274389350
+# refmod: input A = 00110001110101100011011101010010, input B = 00100110100010111110000111111011, output OUT = 0000011110000001000001111000010001011001001011010100111101100110
+# UVM_INFO @ 2835: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 3190316931, input B = 3484395602, output OUT = work.DUT(fast)11116326283362537462
+# mbe: input A = 10111110001010000101111110000011, input B = 11001111101011111010100001010010, output OUT = 1001101001000101000111111101101110011111001010011000111111110110
+# refmod: input A = -1104650365, input B =  -810571694, output OUT = work.top_sv_unit(fast)   895398317635768310
+# refmod: input A = 10111110001010000101111110000011, input B = 11001111101011111010100001010010, output OUT = 0000110001101101000110000000011010011111001010011000111111110110
+# UVM_INFO @ 2865: reporter [MISCMP] Miscompare for exp.data: lhs = 'hc6d18069f298ff6 : rhs = 'h9a451fdb9f298ff6
+# UVM_INFO @ 2865: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2865: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  483828869, input B = 3813484750, output OUT = work.DUT(fast) 1845074013541247750
+# mbe: input A = 00011100110101101010010010000101, input B = 11100011010011010010100011001110, output OUT = 0001100110011011000001010000101000101001011011100010101100000110
+# refmod: input A =   483828869, input B =  -481482546, output OUT = work.top_sv_unit(fast)  -232955155674420474
+# refmod: input A = 00011100110101101010010010000101, input B = 11100011010011010010100011001110, output OUT = 1111110011000100011000001000010100101001011011100010101100000110
+# UVM_INFO @ 2895: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfcc46085296e2b06 : rhs = 'h199b050a296e2b06
+# UVM_INFO @ 2895: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2895: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 2856251919, input B = 3622420488, output OUT = work.DUT(fast)10346545470274916472
+# mbe: input A = 10101010001111101111001000001111, input B = 11010111111010011100000000001000, output OUT = 1000111110010110010100000100100101110000001010011101000001111000
+# refmod: input A = -1438715377, input B =  -672546808, output OUT = work.top_sv_unit(fast)   967603434421866616
+# refmod: input A = 10101010001111101111001000001111, input B = 11010111111010011100000000001000, output OUT = 0000110101101101100111100011001001110000001010011101000001111000
+# UVM_INFO @ 2925: reporter [MISCMP] Miscompare for exp.data: lhs = 'hd6d9e327029d078 : rhs = 'h8f9650497029d078
+# UVM_INFO @ 2925: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2925: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1167978686, input B = 3756602439, output OUT = work.DUT(fast) 4387631580527615154
+# mbe: input A = 01000101100111011111000010111110, input B = 11011111111010010011010001000111, output OUT = 0011110011100011111111111010110100000010101000100101110010110010
+# refmod: input A =  1167978686, input B =  -538364857, output OUT = work.top_sv_unit(fast)  -628798678267437902
+# refmod: input A = 01000101100111011111000010111110, input B = 11011111111010010011010001000111, output OUT = 1111011101000110000011101110111100000010101000100101110010110010
+# UVM_INFO @ 2955: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf7460eef02a25cb2 : rhs = 'h3ce3ffad02a25cb2
+# UVM_INFO @ 2955: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2955: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1265812886, input B = 1254102635, output OUT = work.DUT(fast) 1587459275749554610
+# mbe: input A = 01001011011100101100010110010110, input B = 01001010110000000001011001101011, output OUT = 0001011000000111110010011100110011110010011100110111100110110010
+# refmod: input A =  1265812886, input B =  1254102635, output OUT = work.top_sv_unit(fast)  1587459275749554610
+# refmod: input A = 01001011011100101100010110010110, input B = 01001010110000000001011001101011, output OUT = 0001011000000111110010011100110011110010011100110111100110110010
+# UVM_INFO @ 2985: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = 2262886521, input B =  131184124, output OUT = work.DUT(fast)  296854785968792604
+# mbe: input A = 10000110111000001110100001111001, input B = 00000111110100011011010111111100, output OUT = 0000010000011110101000111101101011100011100010110110010000011100
+# refmod: input A = -2032080775, input B =   131184124, output OUT = work.top_sv_unit(fast)  -266576736365616100
+# refmod: input A = 10000110111000001110100001111001, input B = 00000111110100011011010111111100, output OUT = 1111110001001100111011011101111011100011100010110110010000011100
+# UVM_INFO @ 3015: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfc4ceddee38b641c : rhs = 'h41ea3dae38b641c
+# UVM_INFO @ 3015: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 3015: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = 1212576424, input B = 3087079914, output OUT = work.DUT(fast) 3743320322720347536
+# mbe: input A = 01001000010001100111001010101000, input B = 10111000000000010001100111101010, output OUT = 0011001111110010111100100000000000100100001111110011010110010000
+# refmod: input A =  1212576424, input B = -1207887382, output OUT = work.top_sv_unit(fast) -1464655762260281968
+# refmod: input A = 01001000010001100111001010101000, input B = 10111000000000010001100111101010, output OUT = 1110101110101100011111110101100000100100001111110011010110010000
+# UVM_INFO @ 3045: reporter [MISCMP] Miscompare for exp.data: lhs = 'hebac7f58243f3590 : rhs = 'h33f2f200243f3590
+# UVM_INFO @ 3045: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 3045: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 3045: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../tb/env.sv(42) @ 3045: uvm_test_top.env_h [env] Reporting matched 32
+# UVM_ERROR ../tb/env.sv(44) @ 3045: uvm_test_top.env_h [env] Saw 69 mismatched samples
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  175
+# UVM_WARNING :   69
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Comparator Match]    32
+# [Comparator Mismatch]    69
+# [MISCMP]   138
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [env]     2
+# ** Note: $finish    : /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 3045 ns  Iteration: 58  Instance: /top
+# Break in Task uvm_pkg/uvm_root::run_test at /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+do ../testing_mbe.do
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:22 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/multiplier/FF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FFN_EN_FP
+# -- Compiling architecture BEHAVIOR of FFN_EN_FP
+# End time: 20:41:22 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:22 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/common/fpnormalize_fpnormalize.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FPnormalize
+# -- Compiling architecture FPnormalize of FPnormalize
+# End time: 20:41:22 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:22 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/common/fpround_fpround.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FPround
+# -- Compiling architecture FPround of FPround
+# End time: 20:41:22 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:22 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/common/packfp_packfp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity PackFP
+# -- Compiling architecture PackFP of PackFP
+# End time: 20:41:22 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:22 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/common/unpackfp_unpackfp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity UnpackFP
+# -- Compiling architecture UnpackFP of UnpackFP
+# End time: 20:41:23 on Mar 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:23 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/my_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package my_pkg
+# -- Compiling package body my_pkg
+# -- Loading package my_pkg
+# End time: 20:41:23 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:23 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/partial_product_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity ppg
+# -- Compiling architecture behavioral of ppg
+# End time: 20:41:23 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:23 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/s_padder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Loading package my_pkg
+# -- Compiling entity s_padder
+# -- Compiling architecture behavioral of s_padder
+# End time: 20:41:23 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:23 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/FA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity FA
+# -- Compiling architecture behavioral of FA
+# End time: 20:41:23 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:23 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/HA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity HA
+# -- Compiling architecture behavioral of HA
+# End time: 20:41:24 on Mar 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:24 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Loading package my_pkg
+# -- Compiling entity dadda_stage1
+# -- Compiling architecture behavioral of dadda_stage1
+# End time: 20:41:24 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:24 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DADDA_STAGE2
+# -- Compiling architecture STRUCT of DADDA_STAGE2
+# End time: 20:41:24 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:24 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_stage3
+# -- Compiling architecture behavioral of dadda_stage3
+# End time: 20:41:24 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:24 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_stage4
+# -- Compiling architecture behavioral of dadda_stage4
+# End time: 20:41:24 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:24 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_stage5
+# -- Compiling architecture behavioral of dadda_stage5
+# End time: 20:41:25 on Mar 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:25 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_stage6.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_stage6
+# -- Compiling architecture behavioral of dadda_stage6
+# End time: 20:41:25 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:25 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/rca63.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity rca63
+# -- Compiling architecture behavioral of rca63
+# End time: 20:41:25 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:25 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/dadda_tree.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Loading package my_pkg
+# -- Compiling entity dadda_tree
+# -- Compiling architecture rtl of dadda_tree
+# End time: 20:41:25 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:25 on Mar 10,2021
+# vcom -reportprogress 300 -93 -work ./work ../src/mbe/mbe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Loading package my_pkg
+# -- Compiling entity mbe
+# -- Compiling architecture rtl of mbe
+# End time: 20:41:25 on Mar 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:41:25 on Mar 10,2021
+# vlog -reportprogress 300 -sv ../tb/top.sv 
+# ** Note: (vlog-2286) ../tb/top.sv(2): Using implicit +incdir+/software/mentor/questa10.7c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Warning: ../tb/monitor.sv(49): (vlog-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# ** Warning: ../tb/monitor_out.sv(48): (vlog-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# -- Compiling module mbe_sv
+# -- Compiling interface dut_if
+# -- Compiling module DUT
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:41:29 on Mar 10,2021, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 2
+# End time: 20:41:39 on Mar 10,2021, Elapsed time: 0:11:38
+# Errors: 0, Warnings: 6
+# vsim top 
+# Start time: 20:41:39 on Mar 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../tb/monitor.sv(49): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# ** Warning: ../tb/monitor_out.sv(48): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.DUT(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.dut_if(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading work.my_pkg(body)
+# Loading work.mbe(rtl)#1
+# Loading work.dadda_stage1(behavioral)#1
+# Loading work.dadda_stage2(struct)#1
+# Loading work.dadda_stage3(behavioral)#1
+# Loading work.dadda_stage4(behavioral)#1
+# Loading work.dadda_stage5(behavioral)#1
+# Loading work.dadda_stage6(behavioral)#1
+# ** Warning: (vsim-3838) Variable '/top/out/data' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../src/DUT.sv(9).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum File: ../src/DUT.sv Line: 3
+# ** Warning: (vsim-3764) Stand-alone call to function 'begin_tr' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit::driver File: ../tb/driver.sv Line: 67
+# Loading /software/mentor/questa10.7c/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test simple_test...
+# mbe: input A =   731014105, input B =   175121917, output OUT = work.DUT(fast)   128016591421639285
+# mbe: input A = 00101011100100100110001111011001, input B = 00001010011100000010010111111101, output OUT = 0000000111000110110011100110100101100001000010110000101001110101
+# refmod: input A =   731014105, input B =   175121917, output OUT = work.top_sv_unit(fast)   128016591421639285
+# refmod: input A = 00101011100100100110001111011001, input B = 00001010011100000010010111111101, output OUT = 0000000111000110110011100110100101100001000010110000101001110101
+# UVM_INFO @ 45: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =    80379531, input B = -1592624652, output OUT = work.DUT(fast)   217213034326019964
+# mbe: input A = 00000100110010100111111010001011, input B = 10100001000100100111100111110100, output OUT = 0000001100000011101100100001101010010111100101100100111101111100
+# refmod: input A =    80379531, input B = -1592624652, output OUT = work.top_sv_unit(fast)  -128014422586798212
+# refmod: input A = 00000100110010100111111010001011, input B = 10100001000100100111100111110100, output OUT = 1111111000111001001100111000111110010111100101100100111101111100
+# UVM_INFO @ 75: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe39338f97964f7c : rhs = 'h303b21a97964f7c
+# UVM_INFO @ 75: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 75: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   260878708, input B =  -482014950, output OUT = work.DUT(fast)   994718081690048968
+# mbe: input A = 00001111100011001011000101110100, input B = 11100011010001010000100100011010, output OUT = 0000110111001101111100101101001100110110110010110001100111001000
+# refmod: input A =   260878708, input B =  -482014950, output OUT = work.top_sv_unit(fast)  -125747437392684600
+# refmod: input A = 00001111100011001011000101110100, input B = 11100011010001010000100100011010, output OUT = 1111111001000001010000010101111100110110110010110001100111001000
+# UVM_INFO @ 105: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe41415f36cb19c8 : rhs = 'hdcdf2d336cb19c8
+# UVM_INFO @ 105: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 105: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   -30345588, input B =  -195162513, output OUT = work.DUT(fast)  -962627597565522252
+# mbe: input A = 11111110001100001111011010001100, input B = 11110100010111100000111001101111, output OUT = 1111001010100100000011110100110011011100000111101000111010110100
+# refmod: input A =   -30345588, input B =  -195162513, output OUT = work.top_sv_unit(fast)     5922321212542644
+# refmod: input A = 11111110001100001111011010001100, input B = 11110100010111100000111001101111, output OUT = 0000000000010101000010100101000111011100000111101000111010110100
+# UVM_INFO @ 135: reporter [MISCMP] Miscompare for exp.data: lhs = 'h150a51dc1e8eb4 : rhs = 'hf2a40f4cdc1e8eb4
+# UVM_INFO @ 135: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 135: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1612838577, input B =  -579238419, output OUT = work.DUT(fast) -8480680940690233053
+# mbe: input A = 10011111110111100000100101001111, input B = 11011101011110011000010111101101, output OUT = 1000101001001110100100011001110111110100101110111010100100100011
+# refmod: input A = -1612838577, input B =  -579238419, output OUT = work.top_sv_unit(fast)   934218067443689763
+# refmod: input A = 10011111110111100000100101001111, input B = 11011101011110011000010111101101, output OUT = 0000110011110111000000100110000111110100101110111010100100100011
+# UVM_INFO @ 165: reporter [MISCMP] Miscompare for exp.data: lhs = 'hcf70261f4bba923 : rhs = 'h8a4e919df4bba923
+# UVM_INFO @ 165: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 165: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   140412694, input B =  1111608308, output OUT = work.DUT(fast)   156083917199061752
+# mbe: input A = 00001000010111101000011100010110, input B = 01000010010000011100101111110100, output OUT = 0000001000101010100001010111111011100111110011010011001011111000
+# refmod: input A =   140412694, input B =  1111608308, output OUT = work.top_sv_unit(fast)   156083917199061752
+# refmod: input A = 00001000010111101000011100010110, input B = 01000010010000011100101111110100, output OUT = 0000001000101010100001010111111011100111110011010011001011111000
+# UVM_INFO @ 195: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  -533732517, input B =  -347681843, output OUT = work.DUT(fast) -3600076745245181729
+# mbe: input A = 11100000001011111110001101011011, input B = 11101011010001101100101111001101, output OUT = 1100111000001001111101010100011000110011100001000011100011011111
+# refmod: input A =  -533732517, input B =  -347681843, output OUT = work.top_sv_unit(fast)   185569105179588831
+# refmod: input A = 11100000001011111110001101011011, input B = 11101011010001101100101111001101, output OUT = 0000001010010011010001100001111000110011100001000011100011011111
+# UVM_INFO @ 225: reporter [MISCMP] Miscompare for exp.data: lhs = 'h293461e338438df : rhs = 'hce09f546338438df
+# UVM_INFO @ 225: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 225: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1763590783, input B =  -923722704, output OUT = work.DUT(fast)  8533889379767067696
+# mbe: input A = 10010110111000011011110110000001, input B = 11001000111100010001110000110000, output OUT = 0111011001101110011101110010110100101001011111101010010000110000
+# refmod: input A = -1763590783, input B =  -923722704, output OUT = work.top_sv_unit(fast)  1629068846822237232
+# refmod: input A = 10010110111000011011110110000001, input B = 11001000111100010001110000110000, output OUT = 0001011010011011100111010111110000101001011111101010010000110000
+# UVM_INFO @ 255: reporter [MISCMP] Miscompare for exp.data: lhs = 'h169b9d7c297ea430 : rhs = 'h766e772d297ea430
+# UVM_INFO @ 255: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 255: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -422286500, input B =  -832221123, output OUT = work.DUT(fast) -5036633468109957908
+# mbe: input A = 11100110110101000110101101011100, input B = 11001110011001010101000000111101, output OUT = 1011101000011010010010001000101111000101011101100101010011101100
+# refmod: input A =  -422286500, input B =  -832221123, output OUT = work.top_sv_unit(fast)   351435745257739500
+# refmod: input A = 11100110110101000110101101011100, input B = 11001110011001010101000000111101, output OUT = 0000010011100000100011001111001011000101011101100101010011101100
+# UVM_INFO @ 285: reporter [MISCMP] Miscompare for exp.data: lhs = 'h4e08cf2c57654ec : rhs = 'hba1a488bc57654ec
+# UVM_INFO @ 285: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 285: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1921737052, input B = -1356703415, output OUT = work.DUT(fast)  6973176707242016964
+# mbe: input A = 10001101011101001001111010100100, input B = 10101111001000100101100101001001, output OUT = 0110000011000101101100110100010100001111001100000100000011000100
+# refmod: input A = -1921737052, input B = -1356703415, output OUT = work.top_sv_unit(fast)  2607227221180432580
+# refmod: input A = 10001101011101001001111010100100, input B = 10101111001000100101100101001001, output OUT = 0010010000101110101110110101100000001111001100000100000011000100
+# UVM_INFO @ 315: reporter [MISCMP] Miscompare for exp.data: lhs = 'h242ebb580f3040c4 : rhs = 'h60c5b3450f3040c4
+# UVM_INFO @ 315: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 315: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1541776121, input B =  1428688626, output OUT = work.DUT(fast)  2202718007911099746
+# mbe: input A = 01011011111001011010001011111001, input B = 01010101001010000000111011110010, output OUT = 0001111010010001101000000101101110010001111001011010110101100010
+# refmod: input A =  1541776121, input B =  1428688626, output OUT = work.top_sv_unit(fast)  2202718007911099746
+# refmod: input A = 01011011111001011010001011111001, input B = 01010101001010000000111011110010, output OUT = 0001111010010001101000000101101110010001111001011010110101100010
+# UVM_INFO @ 345: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  -901022867, input B =  -578109560, output OUT = work.DUT(fast) -5831935467226798872
+# mbe: input A = 11001010010010110111101101101101, input B = 11011101100010101011111110001000, output OUT = 1010111100010000110011011001011101101010111100011110010011101000
+# refmod: input A =  -901022867, input B =  -578109560, output OUT = work.top_sv_unit(fast)   520889933191308520
+# refmod: input A = 11001010010010110111101101101101, input B = 11011101100010101011111110001000, output OUT = 0000011100111010100100101010001001101010111100011110010011101000
+# UVM_INFO @ 375: reporter [MISCMP] Miscompare for exp.data: lhs = 'h73a92a26af1e4e8 : rhs = 'haf10cd976af1e4e8
+# UVM_INFO @ 375: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 375: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1712994403, input B =   601358051, output OUT = work.DUT(fast)  1030122975561988553
+# mbe: input A = 01100110000110100011100001100011, input B = 00100011110101111111111011100011, output OUT = 0000111001001011101110110110001101110001010101110011100111001001
+# refmod: input A =  1712994403, input B =   601358051, output OUT = work.top_sv_unit(fast)  1030122975561988553
+# refmod: input A = 01100110000110100011100001100011, input B = 00100011110101111111111011100011, output OUT = 0000111001001011101110110110001101110001010101110011100111001001
+# UVM_INFO @ 405: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  -747642909, input B =   350842963, output OUT = work.DUT(fast)  1244553798657238681
+# mbe: input A = 11010011011011111101111111100011, input B = 00010100111010010111000001010011, output OUT = 0001000101000101100010110001011000000000110100111110011010011001
+# refmod: input A =  -747642909, input B =   350842963, output OUT = work.top_sv_unit(fast)  -262305253459499367
+# refmod: input A = 11010011011011111101111111100011, input B = 00010100111010010111000001010011, output OUT = 1111110001011100000110101100001100000000110100111110011010011001
+# UVM_INFO @ 435: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfc5c1ac300d3e699 : rhs = 'h11458b1600d3e699
+# UVM_INFO @ 435: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 435: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =    91952929, input B =  1965175865, output OUT = work.DUT(fast)   180703676786858585
+# mbe: input A = 00000101011110110001011100100001, input B = 01110101001000100011010000111001, output OUT = 0000001010000001111111010000100101100000011111001101101001011001
+# refmod: input A =    91952929, input B =  1965175865, output OUT = work.top_sv_unit(fast)   180703676786858585
+# refmod: input A = 00000101011110110001011100100001, input B = 01110101001000100011010000111001, output OUT = 0000001010000001111111010000100101100000011111001101101001011001
+# UVM_INFO @ 465: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = -1222040290, input B = -1686714426, output OUT = work.DUT(fast)  8014970682700007220
+# mbe: input A = 10110111001010010010010100011110, input B = 10011011011101101100011111000110, output OUT = 0110111100111010111001010101111011101011100000010000011100110100
+# refmod: input A = -1222040290, input B = -1686714426, output OUT = work.top_sv_unit(fast)  2061232986296223540
+# refmod: input A = 10110111001010010010010100011110, input B = 10011011011101101100011111000110, output OUT = 0001110010011010111110000111101011101011100000010000011100110100
+# UVM_INFO @ 495: reporter [MISCMP] Miscompare for exp.data: lhs = 'h1c9af87aeb810734 : rhs = 'h6f3ae55eeb810734
+# UVM_INFO @ 495: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 495: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   876184097, input B =   614306907, output OUT = work.DUT(fast)   538245942590657979
+# mbe: input A = 00110100001110011000001000100001, input B = 00100100100111011001010001011011, output OUT = 0000011101111000001110111101010101000001111010010101010110111011
+# refmod: input A =   876184097, input B =   614306907, output OUT = work.top_sv_unit(fast)   538245942590657979
+# refmod: input A = 00110100001110011000001000100001, input B = 00100100100111011001010001011011, output OUT = 0000011101111000001110111101010101000001111010010101010110111011
+# UVM_INFO @ 525: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1568767450, input B =  1075088082, output OUT = work.DUT(fast)  1686563188924530900
+# mbe: input A = 01011101100000010111110111011010, input B = 01000000000101001000101011010010, output OUT = 0001011101100111111000000100100011010111000110001100000011010100
+# refmod: input A =  1568767450, input B =  1075088082, output OUT = work.top_sv_unit(fast)  1686563188924530900
+# refmod: input A = 01011101100000010111110111011010, input B = 01000000000101001000101011010010, output OUT = 0001011101100111111000000100100011010111000110001100000011010100
+# UVM_INFO @ 555: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1678953407, input B =   444558830, output OUT = work.DUT(fast)   746393562240433810
+# mbe: input A = 01100100000100101100101110111111, input B = 00011010011111110110110111101110, output OUT = 0000101001011011101110001111110110000011111110101011111010010010
+# refmod: input A =  1678953407, input B =   444558830, output OUT = work.top_sv_unit(fast)   746393562240433810
+# refmod: input A = 01100100000100101100101110111111, input B = 00011010011111110110110111101110, output OUT = 0000101001011011101110001111110110000011111110101011111010010010
+# UVM_INFO @ 585: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1221817855, input B =  -135917629, output OUT = work.DUT(fast)  5081601142972404285
+# mbe: input A = 01001000110100110111010111111111, input B = 11110111111001100000111111000011, output OUT = 0100011010000101011110010101000011101001000101101101001000111101
+# refmod: input A =  1221817855, input B =  -135917629, output OUT = work.top_sv_unit(fast)  -166066585921465795
+# refmod: input A = 01001000110100110111010111111111, input B = 11110111111001100000111111000011, output OUT = 1111110110110010000000110101000111101001000101101101001000111101
+# UVM_INFO @ 615: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfdb20351e916d23d : rhs = 'h46857950e916d23d
+# UVM_INFO @ 615: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 615: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1664235887, input B =    42791131, output OUT = work.DUT(fast)   112571972348333579
+# mbe: input A = 10011100110011011100011010010001, input B = 00000010100011001111000011011011, output OUT = 0000000110001111111011111001110011000111011111001100111000001011
+# refmod: input A = -1664235887, input B =    42791131, output OUT = work.top_sv_unit(fast)   -71214535855518197
+# refmod: input A = 10011100110011011100011010010001, input B = 00000010100011001111000011011011, output OUT = 1111111100000010111111101100000111000111011111001100111000001011
+# UVM_INFO @ 645: reporter [MISCMP] Miscompare for exp.data: lhs = 'hff02fec1c77cce0b : rhs = 'h18fef9cc77cce0b
+# UVM_INFO @ 645: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 645: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1688129429, input B =  -818080506, output OUT = work.DUT(fast)  9063680143444076930
+# mbe: input A = 10011011011000010011000001101011, input B = 11001111001111010001010100000110, output OUT = 0111110111001000101010010001000110101011101111101110100110000010
+# refmod: input A = -1688129429, input B =  -818080506, output OUT = work.top_sv_unit(fast)  1381025777469811074
+# refmod: input A = 10011011011000010011000001101011, input B = 11001111001111010001010100000110, output OUT = 0001001100101010011000111010000010101011101111101110100110000010
+# UVM_INFO @ 675: reporter [MISCMP] Miscompare for exp.data: lhs = 'h132a63a0abbee982 : rhs = 'h7dc8a911abbee982
+# UVM_INFO @ 675: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 675: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -881393851, input B =  2073383015, output OUT = work.DUT(fast)  7077645201318036675
+# mbe: input A = 11001011011101101111111101000101, input B = 01111011100101010101000001100111, output OUT = 0110001000111000110110001100111111000110110011110100010011000011
+# refmod: input A =  -881393851, input B =  2073383015, output OUT = work.top_sv_unit(fast) -1827467040188840765
+# refmod: input A = 11001011011101101111111101000101, input B = 01111011100101010101000001100111, output OUT = 1110011010100011100010000110100011000110110011110100010011000011
+# UVM_INFO @ 705: reporter [MISCMP] Miscompare for exp.data: lhs = 'he6a38868c6cf44c3 : rhs = 'h6238d8cfc6cf44c3
+# UVM_INFO @ 705: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 705: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1495074477, input B =  -478493753, output OUT = work.DUT(fast) -7761027206760363899
+# mbe: input A = 10100110111000101111100101010011, input B = 11100011011110101100001111000111, output OUT = 1001010001001011010010101110000000001000111010000000100010000101
+# refmod: input A = -1495074477, input B =  -478493753, output OUT = work.top_sv_unit(fast)   715383797514242181
+# refmod: input A = 10100110111000101111100101010011, input B = 11100011011110101100001111000111, output OUT = 0000100111101101100011011100011000001000111010000000100010000101
+# UVM_INFO @ 735: reporter [MISCMP] Miscompare for exp.data: lhs = 'h9ed8dc608e80885 : rhs = 'h944b4ae008e80885
+# UVM_INFO @ 735: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 735: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1256667537, input B =  -401160292, output OUT = work.DUT(fast) -6616191191863839580
+# mbe: input A = 10110101000110001100011001101111, input B = 11101000000101101100011110011100, output OUT = 1010010000101110100100010010101001000010111000110011010010100100
+# refmod: input A = -1256667537, input B =  -401160292, output OUT = work.top_sv_unit(fast)   504125116089840804
+# refmod: input A = 10110101000110001100011001101111, input B = 11101000000101101100011110011100, output OUT = 0000011011111111000000110001111101000010111000110011010010100100
+# UVM_INFO @ 765: reporter [MISCMP] Miscompare for exp.data: lhs = 'h6ff031f42e334a4 : rhs = 'ha42e912a42e334a4
+# UVM_INFO @ 765: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 765: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1778436677, input B = -1941410266, output OUT = work.DUT(fast)  4185652143563189310
+# mbe: input A = 01101010000000001100101001000101, input B = 10001100010010000110111000100110, output OUT = 0011101000010110011011000111001010110010011011111010110000111110
+# refmod: input A =  1778436677, input B = -1941410266, output OUT = work.top_sv_unit(fast) -3452675222158726082
+# refmod: input A = 01101010000000001100101001000101, input B = 10001100010010000110111000100110, output OUT = 1101000000010101101000100010110110110010011011111010110000111110
+# UVM_INFO @ 795: reporter [MISCMP] Miscompare for exp.data: lhs = 'hd015a22db26fac3e : rhs = 'h3a166c72b26fac3e
+# UVM_INFO @ 795: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 795: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1207399226, input B =   357238882, output OUT = work.DUT(fast)  1102999365425697740
+# mbe: input A = 10111000000010001000110011000110, input B = 00010101010010110000100001100010, output OUT = 0000111101001110101001000001010000110011101011100001001111001100
+# refmod: input A = -1207399226, input B =   357238882, output OUT = work.top_sv_unit(fast)  -431329949623905332
+# refmod: input A = 10111000000010001000110011000110, input B = 00010101010010110000100001100010, output OUT = 1111101000000011100110111011001000110011101011100001001111001100
+# UVM_INFO @ 825: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfa039bb233ae13cc : rhs = 'hf4ea41433ae13cc
+# UVM_INFO @ 825: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 825: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -381361674, input B =  1385076643, output OUT = work.DUT(fast)  5420643736945686946
+# mbe: input A = 11101001010001001110000111110110, input B = 01010010100011101001011110100011, output OUT = 0100101100111001111111101100001001001010100101111111100110100010
+# refmod: input A =  -381361674, input B =  1385076643, output OUT = work.top_sv_unit(fast)  -528215147192780382
+# refmod: input A = 11101001010001001110000111110110, input B = 01010010100011101001011110100011, output OUT = 1111100010101011011001110001111101001010100101111111100110100010
+# UVM_INFO @ 855: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf8ab671f4a97f9a2 : rhs = 'h4b39fec24a97f9a2
+# UVM_INFO @ 855: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 855: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  2067343682, input B =   977174398, output OUT = work.DUT(fast)  2020155317917453436
+# mbe: input A = 01111011001110010010100101000010, input B = 00111010001111100111111101111110, output OUT = 0001110000001001000010001000111011110011100101100000110001111100
+# refmod: input A =  2067343682, input B =   977174398, output OUT = work.top_sv_unit(fast)  2020155317917453436
+# refmod: input A = 01111011001110010010100101000010, input B = 00111010001111100111111101111110, output OUT = 0001110000001001000010001000111011110011100101100000110001111100
+# UVM_INFO @ 885: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =   378808866, input B =  1032434645, output OUT = work.DUT(fast)   391095397091562570
+# mbe: input A = 00010110100101000010101000100010, input B = 00111101100010011011001111010101, output OUT = 0000010101101101011100110011000100001000111011101101010001001010
+# refmod: input A =   378808866, input B =  1032434645, output OUT = work.top_sv_unit(fast)   391095397091562570
+# refmod: input A = 00010110100101000010101000100010, input B = 00111101100010011011001111010101, output OUT = 0000010101101101011100110011000100001000111011101101010001001010
+# UVM_INFO @ 915: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  -169680099, input B = -2039097932, output OUT = work.DUT(fast) -9140635068295818908
+# mbe: input A = 11110101111000101110001100011101, input B = 10000110011101011101010110110100, output OUT = 1000000100100101111100001101010110100100101111111101000101100100
+# refmod: input A =  -169680099, input B = -2039097932, output OUT = work.top_sv_unit(fast)   345994338972455268
+# refmod: input A = 11110101111000101110001100011101, input B = 10000110011101011101010110110100, output OUT = 0000010011001101001110000000010010100100101111111101000101100100
+# UVM_INFO @ 945: reporter [MISCMP] Miscompare for exp.data: lhs = 'h4cd3804a4bfd164 : rhs = 'h8125f0d5a4bfd164
+# UVM_INFO @ 945: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 945: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   785484068, input B = -1000898001, output OUT = work.DUT(fast)  2587438950110492060
+# mbe: input A = 00101110110100011000100100100100, input B = 11000100010101111000001000101111, output OUT = 0010001111101000011011100000010000101011010110000111010110011100
+# refmod: input A =   785484068, input B = -1000898001, output OUT = work.top_sv_unit(fast)  -786189433478548068
+# refmod: input A = 00101110110100011000100100100100, input B = 11000100010101111000001000101111, output OUT = 1111010100010110111001001110000000101011010110000111010110011100
+# UVM_INFO @ 975: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf516e4e02b58759c : rhs = 'h23e86e042b58759c
+# UVM_INFO @ 975: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 975: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1233509085, input B = -1457201366, output OUT = work.DUT(fast)  8687701807294551230
+# mbe: input A = 10110110011110100010010100100011, input B = 10101001001001001101111100101010, output OUT = 0111100010010000111010101100001110101010010011111001010010111110
+# refmod: input A = -1233509085, input B = -1457201366, output OUT = work.top_sv_unit(fast)  1797471123635410110
+# refmod: input A = 10110110011110100010010100100011, input B = 10101001001001001101111100101010, output OUT = 0001100011110001111001100111011010101010010011111001010010111110
+# UVM_INFO @ 1005: reporter [MISCMP] Miscompare for exp.data: lhs = 'h18f1e676aa4f94be : rhs = 'h7890eac3aa4f94be
+# UVM_INFO @ 1005: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1005: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1544876891, input B =  1738059493, output OUT = work.DUT(fast)  2685087945918876263
+# mbe: input A = 01011100000101001111001101011011, input B = 01100111100110001010111011100101, output OUT = 0010010101000011010110010100001010110111001011011000101001100111
+# refmod: input A =  1544876891, input B =  1738059493, output OUT = work.top_sv_unit(fast)  2685087945918876263
+# refmod: input A = 01011100000101001111001101011011, input B = 01100111100110001010111011100101, output OUT = 0010010101000011010110010100001010110111001011011000101001100111
+# UVM_INFO @ 1035: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1961337323, input B = -1591347504, output OUT = work.DUT(fast)  5302710405251096816
+# mbe: input A = 01110100111001111010000111101011, input B = 10100001001001011111011011010000, output OUT = 0100100110010111000000110000010011000011110000100110000011110000
+# refmod: input A =  1961337323, input B = -1591347504, output OUT = work.top_sv_unit(fast) -3121169253458091792
+# refmod: input A = 01110100111001111010000111101011, input B = 10100001001001011111011011010000, output OUT = 1101010010101111011000010001100111000011110000100110000011110000
+# UVM_INFO @ 1065: reporter [MISCMP] Miscompare for exp.data: lhs = 'hd4af6119c3c260f0 : rhs = 'h49970304c3c260f0
+# UVM_INFO @ 1065: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1065: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1727143128, input B =   724064169, output OUT = work.DUT(fast)  1250562453719380632
+# mbe: input A = 01100110111100100001110011011000, input B = 00101011001010000101011110101001, output OUT = 0001000101011010111000111110110100000111011000100111001010011000
+# refmod: input A =  1727143128, input B =   724064169, output OUT = work.top_sv_unit(fast)  1250562453719380632
+# refmod: input A = 01100110111100100001110011011000, input B = 00101011001010000101011110101001, output OUT = 0001000101011010111000111110110100000111011000100111001010011000
+# UVM_INFO @ 1095: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =   246654637, input B =  1595147461, output OUT = work.DUT(fast)   393450517954426657
+# mbe: input A = 00001110101100111010011010101101, input B = 01011111000101000000010011000101, output OUT = 0000010101110101110100010010100101010111010111011111011100100001
+# refmod: input A =   246654637, input B =  1595147461, output OUT = work.top_sv_unit(fast)   393450517954426657
+# refmod: input A = 00001110101100111010011010101101, input B = 01011111000101000000010011000101, output OUT = 0000010101110101110100010010100101010111010111011111011100100001
+# UVM_INFO @ 1125: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1646293169, input B = -1093391205, output OUT = work.DUT(fast)  5270732848647022379
+# mbe: input A = 01100010001000000111000010110001, input B = 10111110110101000010110010011011, output OUT = 0100100100100101011001111001100110101101100101101010011100101011
+# refmod: input A =  1646293169, input B = -1093391205, output OUT = work.top_sv_unit(fast) -1800042471836178645
+# refmod: input A = 01100010001000000111000010110001, input B = 10111110110101000010110010011011, output OUT = 1110011100000100111101101110100010101101100101101010011100101011
+# UVM_INFO @ 1155: reporter [MISCMP] Miscompare for exp.data: lhs = 'he704f6e8ad96a72b : rhs = 'h49256799ad96a72b
+# UVM_INFO @ 1155: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1155: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -346082940, input B =  1247084803, output OUT = work.DUT(fast)  4924593669172041868
+# mbe: input A = 11101011010111110011000110000100, input B = 01001010010101010000000100000011, output OUT = 0100010001010111101010111101100110111010001000110001100010001100
+# refmod: input A =  -346082940, input B =  1247084803, output OUT = work.top_sv_unit(fast)  -431594775051560820
+# refmod: input A = 11101011010111110011000110000100, input B = 01001010010101010000000100000011, output OUT = 1111101000000010101010101101011010111010001000110001100010001100
+# UVM_INFO @ 1185: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfa02aad6ba23188c : rhs = 'h4457abd9ba23188c
+# UVM_INFO @ 1185: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1185: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1637527070, input B =   818587330, output OUT = work.DUT(fast)  1340458912034023100
+# mbe: input A = 01100001100110101010111000011110, input B = 00110000110010101010011011000010, output OUT = 0001001010011010010001000100011101000111110010110110011010111100
+# refmod: input A =  1637527070, input B =   818587330, output OUT = work.top_sv_unit(fast)  1340458912034023100
+# refmod: input A = 01100001100110101010111000011110, input B = 00110000110010101010011011000010, output OUT = 0001001010011010010001000100011101000111110010110110011010111100
+# UVM_INFO @ 1215: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =   268764860, input B = -2092397500, output OUT = work.DUT(fast)   591973362862168560
+# mbe: input A = 00010000000001010000011010111100, input B = 10000011010010001000110001000100, output OUT = 0000100000110111000111001010001100011001111001001001100111110000
+# refmod: input A =   268764860, input B = -2092397500, output OUT = work.top_sv_unit(fast)  -562362921151850000
+# refmod: input A = 00010000000001010000011010111100, input B = 10000011010010001000110001000100, output OUT = 1111100000110010000101011110011100011001111001001001100111110000
+# UVM_INFO @ 1245: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf83215e719e499f0 : rhs = 'h8371ca319e499f0
+# UVM_INFO @ 1245: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1245: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1106214409, input B =  -111097039, output OUT = work.DUT(fast)  4628257563679933113
+# mbe: input A = 01000001111011110111111000001001, input B = 11111001011000001100101100110001, output OUT = 0100000000111010110111111011101110001100001010000100001010111001
+# refmod: input A =  1106214409, input B =  -111097039, output OUT = work.top_sv_unit(fast)  -122897145339034951
+# refmod: input A = 01000001111011110111111000001001, input B = 11111001011000001100101100110001, output OUT = 1111111001001011011000011011001010001100001010000100001010111001
+# UVM_INFO @ 1275: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe4b61b28c2842b9 : rhs = 'h403adfbb8c2842b9
+# UVM_INFO @ 1275: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1275: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   -21404508, input B =  -138569854, output OUT = work.DUT(fast)  -684118633439963320
+# mbe: input A = 11111110101110010110010010100100, input B = 11110111101111011001011110000010, output OUT = 1111011010000001100001011011101000111101100101011101011101001000
+# refmod: input A =   -21404508, input B =  -138569854, output OUT = work.top_sv_unit(fast)     2966019548501832
+# refmod: input A = 11111110101110010110010010100100, input B = 11110111101111011001011110000010, output OUT = 0000000000001010100010011001010000111101100101011101011101001000
+# UVM_INFO @ 1305: reporter [MISCMP] Miscompare for exp.data: lhs = 'ha89943d95d748 : rhs = 'hf68185ba3d95d748
+# UVM_INFO @ 1305: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1305: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1937459090, input B =   999367748, output OUT = work.DUT(fast)  1936234127615429320
+# mbe: input A = 01110011011110110100011110010010, input B = 00111011100100010010010001000100, output OUT = 0001101011011110111000101010111000110010100000011000101011001000
+# refmod: input A =  1937459090, input B =   999367748, output OUT = work.top_sv_unit(fast)  1936234127615429320
+# refmod: input A = 01110011011110110100011110010010, input B = 00111011100100010010010001000100, output OUT = 0001101011011110111000101010111000110010100000011000101011001000
+# UVM_INFO @ 1335: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  -258324837, input B =  1197094634, output OUT = work.DUT(fast)  4832243027045465006
+# mbe: input A = 11110000100110100100011010011011, input B = 01000111010110100011011011101010, output OUT = 0100001100001111100100110110111001000111011001110011101110101110
+# refmod: input A =  -258324837, input B =  1197094634, output OUT = work.top_sv_unit(fast)  -309239276201624658
+# refmod: input A = 11110000100110100100011010011011, input B = 01000111010110100011011011101010, output OUT = 1111101110110101010111001000010001000111011001110011101110101110
+# UVM_INFO @ 1365: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfbb55c8447673bae : rhs = 'h430f936e47673bae
+# UVM_INFO @ 1365: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1365: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -377565757, input B =   203933794, output OUT = work.DUT(fast)   798890558469708966
+# mbe: input A = 11101001011111101100110111000011, input B = 00001100001001111100100001100010, output OUT = 0000101100010110001110101011101011110000000000000001110010100110
+# refmod: input A =  -377565757, input B =   203933794, output OUT = work.top_sv_unit(fast)   -76998417309492058
+# refmod: input A = 11101001011111101100110111000011, input B = 00001100001001111100100001100010, output OUT = 1111111011101110011100100101100011110000000000000001110010100110
+# UVM_INFO @ 1395: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfeee7258f0001ca6 : rhs = 'hb163abaf0001ca6
+# UVM_INFO @ 1395: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1395: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1881716334, input B = -1050914191, output OUT = work.DUT(fast)  6104387716041917070
+# mbe: input A = 01110000001010001011011001101110, input B = 11000001010111000101001001110001, output OUT = 0101010010110111001001000100100100001001111011111100001010001110
+# refmod: input A =  1881716334, input B = -1050914191, output OUT = work.top_sv_unit(fast) -1977522398837095794
+# refmod: input A = 01110000001010001011011001101110, input B = 11000001010111000101001001110001, output OUT = 1110010010001110011011011101101100001001111011111100001010001110
+# UVM_INFO @ 1425: reporter [MISCMP] Miscompare for exp.data: lhs = 'he48e6ddb09efc28e : rhs = 'h54b7244909efc28e
+# UVM_INFO @ 1425: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1425: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1774463054, input B =  1288052871, output OUT = work.DUT(fast)  2285602231188128034
+# mbe: input A = 01101001110001000010100001001110, input B = 01001100110001100010000010000111, output OUT = 0001111110111000000101110001111010011111110011110000000100100010
+# refmod: input A =  1774463054, input B =  1288052871, output OUT = work.top_sv_unit(fast)  2285602231188128034
+# refmod: input A = 01101001110001000010100001001110, input B = 01001100110001100010000010000111, output OUT = 0001111110111000000101110001111010011111110011110000000100100010
+# UVM_INFO @ 1455: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1436771488, input B =  -675032418, output OUT = work.DUT(fast)  5201019221127158464
+# mbe: input A = 01010101101000110110010010100000, input B = 11010111110000111101001010011110, output OUT = 0100100000101101101110110110110011101001010000110101101011000000
+# refmod: input A =  1436771488, input B =  -675032418, output OUT = work.top_sv_unit(fast)  -969867331658097984
+# refmod: input A = 01010101101000110110010010100000, input B = 11010111110000111101001010011110, output OUT = 1111001010001010010101101100110011101001010000110101101011000000
+# UVM_INFO @ 1485: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf28a56cce9435ac0 : rhs = 'h482dbb6ce9435ac0
+# UVM_INFO @ 1485: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1485: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1111989750, input B =  1067334004, output OUT = work.DUT(fast)  1186864472274459000
+# mbe: input A = 01000010010001111001110111110110, input B = 00111111100111100011100101110100, output OUT = 0001000001111000100101101111001100000010011100110101100101111000
+# refmod: input A =  1111989750, input B =  1067334004, output OUT = work.top_sv_unit(fast)  1186864472274459000
+# refmod: input A = 01000010010001111001110111110110, input B = 00111111100111100011100101110100, output OUT = 0001000001111000100101101111001100000010011100110101100101111000
+# UVM_INFO @ 1515: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = -1033445503, input B =  -270743135, output OUT = work.DUT(fast) -5321649272690910943
+# mbe: input A = 11000010011001101101111110000001, input B = 11101111110111001100100110100001, output OUT = 1011011000100101101101000010111010001010000010101101100100100001
+# refmod: input A = -1033445503, input B =  -270743135, output OUT = work.top_sv_unit(fast)   279798275333871905
+# refmod: input A = 11000010011001101101111110000001, input B = 11101111110111001100100110100001, output OUT = 0000001111100010000010110000110010001010000010101101100100100001
+# UVM_INFO @ 1545: reporter [MISCMP] Miscompare for exp.data: lhs = 'h3e20b0c8a0ad921 : rhs = 'hb625b42e8a0ad921
+# UVM_INFO @ 1545: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1545: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1109024755, input B = -1731324078, output OUT = work.DUT(fast)  8167619988172336938
+# mbe: input A = 10111101111001011010000000001101, input B = 10011000110011100001011101010010, output OUT = 0111000101011001001101110001101011110111011001000110111100101010
+# refmod: input A = -1109024755, input B = -1731324078, output OUT = work.top_sv_unit(fast)  1920081261429550890
+# refmod: input A = 10111101111001011010000000001101, input B = 10011000110011100001011101010010, output OUT = 0001101010100101011111111011101111110111011001000110111100101010
+# UVM_INFO @ 1575: reporter [MISCMP] Miscompare for exp.data: lhs = 'h1aa57fbbf7646f2a : rhs = 'h7159371af7646f2a
+# UVM_INFO @ 1575: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1575: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -663338896, input B = -1099173360, output OUT = work.DUT(fast) -6840808055184169216
+# mbe: input A = 11011000011101100100000001110000, input B = 10111110011110111111001000010000, output OUT = 1010000100010000100100010101000101100110000111011110011100000000
+# refmod: input A =  -663338896, input B = -1099173360, output OUT = work.top_sv_unit(fast)   729124443135010560
+# refmod: input A = 11011000011101100100000001110000, input B = 10111110011110111111001000010000, output OUT = 0000101000011110010111101101000101100110000111011110011100000000
+# UVM_INFO @ 1605: reporter [MISCMP] Miscompare for exp.data: lhs = 'ha1e5ed1661de700 : rhs = 'ha1109151661de700
+# UVM_INFO @ 1605: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1605: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =    48072737, input B = -1659201061, output OUT = work.DUT(fast)   126708497008635195
+# mbe: input A = 00000010110111011000100000100001, input B = 10011101000110101001100111011011, output OUT = 0000000111000010001010001011010011101010001110010010110100111011
+# refmod: input A =    48072737, input B = -1659201061, output OUT = work.top_sv_unit(fast)   -79762336235573957
+# refmod: input A = 00000010110111011000100000100001, input B = 10011101000110101001100111011011, output OUT = 1111111011100100101000001001001111101010001110010010110100111011
+# UVM_INFO @ 1635: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfee4a093ea392d3b : rhs = 'h1c228b4ea392d3b
+# UVM_INFO @ 1635: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1635: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =    69971449, input B = -1774372404, output OUT = work.DUT(fast)   176369676935238508
+# mbe: input A = 00000100001010111010110111111001, input B = 10010110001111010011100111001100, output OUT = 0000001001110010100101110100100101100110111000000001001101101100
+# refmod: input A =    69971449, input B = -1774372404, output OUT = work.top_sv_unit(fast)  -124155408173493396
+# refmod: input A = 00000100001010111010110111111001, input B = 10010110001111010011100111001100, output OUT = 1111111001000110111010010101000001100110111000000001001101101100
+# UVM_INFO @ 1665: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe46e95066e0136c : rhs = 'h272974966e0136c
+# UVM_INFO @ 1665: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1665: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1953219277, input B =  1325665225, output OUT = work.DUT(fast)  2589314872318542325
+# mbe: input A = 01110100011010111100001011001101, input B = 01001111000001000000101111001001, output OUT = 0010001111101111000110000010100001011000001011101100000111110101
+# refmod: input A =  1953219277, input B =  1325665225, output OUT = work.top_sv_unit(fast)  2589314872318542325
+# refmod: input A = 01110100011010111100001011001101, input B = 01001111000001000000101111001001, output OUT = 0010001111101111000110000010100001011000001011101100000111110101
+# UVM_INFO @ 1695: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1036759395, input B =  -968370029, output OUT = work.DUT(fast)  3448880969943573465
+# mbe: input A = 00111101110010111011000101100011, input B = 11000110010001111101100010010011, output OUT = 0010111111011100111000101111100000011110000101110110001111011001
+# refmod: input A =  1036759395, input B =  -968370029, output OUT = work.top_sv_unit(fast) -1003966725402172455
+# refmod: input A = 00111101110010111011000101100011, input B = 11000110010001111101100010010011, output OUT = 1111001000010001001100011001010100011110000101110110001111011001
+# UVM_INFO @ 1725: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf21131951e1763d9 : rhs = 'h2fdce2f81e1763d9
+# UVM_INFO @ 1725: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1725: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   938463625, input B = -1898849300, output OUT = work.DUT(fast)  2248669580453895500
+# mbe: input A = 00110111111011111101000110001001, input B = 10001110110100011101101111101100, output OUT = 0001111100110100111000010001000111001000001011100101110101001100
+# refmod: input A =   938463625, input B = -1898849300, output OUT = work.top_sv_unit(fast) -1782000997406712500
+# refmod: input A = 00110111111011111101000110001001, input B = 10001110110100011101101111101100, output OUT = 1110011101000101000011111000100011001000001011100101110101001100
+# UVM_INFO @ 1755: reporter [MISCMP] Miscompare for exp.data: lhs = 'he7450f88c82e5d4c : rhs = 'h1f34e111c82e5d4c
+# UVM_INFO @ 1755: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1755: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -782159220, input B = -1327341859, output OUT = work.DUT(fast) -8022045472072922404
+# mbe: input A = 11010001011000010011001010001100, input B = 10110000111000100101111011011101, output OUT = 1001000010101011111110000010010101010001000100000000101011011100
+# refmod: input A =  -782159220, input B = -1327341859, output OUT = work.top_sv_unit(fast)  1038192673108789980
+# refmod: input A = 11010001011000010011001010001100, input B = 10110000111000100101111011011101, output OUT = 0000111001101000011001101011110001010001000100000000101011011100
+# UVM_INFO @ 1785: reporter [MISCMP] Miscompare for exp.data: lhs = 'he6866bc51100adc : rhs = 'h90abf82551100adc
+# UVM_INFO @ 1785: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1785: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -959446952, input B =  1734826974, output OUT = work.DUT(fast)  5786550665096959056
+# mbe: input A = 11000110110100000000000001011000, input B = 01100111011001110101101111011110, output OUT = 0101000001001101111101010010101111100011111001111001010001010000
+# refmod: input A =  -959446952, input B =  1734826974, output OUT = work.top_sv_unit(fast) -1664474452451683248
+# refmod: input A = 11000110110100000000000001011000, input B = 01100111011001110101101111011110, output OUT = 1110100011100110100110010100110111100011111001111001010001010000
+# UVM_INFO @ 1815: reporter [MISCMP] Miscompare for exp.data: lhs = 'he8e6994de3e79450 : rhs = 'h504df52be3e79450
+# UVM_INFO @ 1815: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1815: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   874323444, input B =  -955063903, output OUT = work.DUT(fast)  2920155837195045492
+# mbe: input A = 00110100000111010001110111110100, input B = 11000111000100101110000110100001, output OUT = 0010100010000110011110100100001100100100110010110100101001110100
+# refmod: input A =   874323444, input B =  -955063903, output OUT = work.top_sv_unit(fast)  -835034760911041932
+# refmod: input A = 00110100000111010001110111110100, input B = 11000111000100101110000110100001, output OUT = 1111010001101001010111000100111100100100110010110100101001110100
+# UVM_INFO @ 1845: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf4695c4f24cb4a74 : rhs = 'h28867a4324cb4a74
+# UVM_INFO @ 1845: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1845: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1778563994, input B =  -404489094, output OUT = work.DUT(fast)  6919464449519058788
+# mbe: input A = 01101010000000101011101110011010, input B = 11100111111000111111110001111010, output OUT = 0110000000000110111000000100000110000101100001101111111101100100
+# refmod: input A =  1778563994, input B =  -404489094, output OUT = work.top_sv_unit(fast)  -719409738554081436
+# refmod: input A = 01101010000000101011101110011010, input B = 11100111111000111111110001111010, output OUT = 1111011000000100001001001010011110000101100001101111111101100100
+# UVM_INFO @ 1875: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf60424a78586ff64 : rhs = 'h6006e0418586ff64
+# UVM_INFO @ 1875: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1875: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   966729293, input B =  1390763847, output OUT = work.DUT(fast)  1344492150540270171
+# mbe: input A = 00111001100111110001111001001101, input B = 01010010111001010101111101000111, output OUT = 0001001010101000100110000111110011001100010000001111101001011011
+# refmod: input A =   966729293, input B =  1390763847, output OUT = work.top_sv_unit(fast)  1344492150540270171
+# refmod: input A = 00111001100111110001111001001101, input B = 01010010111001010101111101000111, output OUT = 0001001010101000100110000111110011001100010000001111101001011011
+# UVM_INFO @ 1905: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  -234040979, input B =   532341165, output OUT = work.DUT(fast)  2161798246570939305
+# mbe: input A = 11110010000011001101000101101101, input B = 00011111101110101110000110101101, output OUT = 0001111000000000010000000000110100110010111011000101001110101001
+# refmod: input A =  -234040979, input B =   532341165, output OUT = work.top_sv_unit(fast)  -124589647418600535
+# refmod: input A = 11110010000011001101000101101101, input B = 00011111101110101110000110101101, output OUT = 1111111001000101010111100110000000110010111011000101001110101001
+# UVM_INFO @ 1935: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfe455e6032ec53a9 : rhs = 'h1e00400d32ec53a9
+# UVM_INFO @ 1935: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1935: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  2012210426, input B =   115068029, output OUT = work.DUT(fast)   231541087653070354
+# mbe: input A = 01110111111011111110010011111010, input B = 00000110110110111100110001111101, output OUT = 0000001100110110100110010110010001111000011110000000011000010010
+# refmod: input A =  2012210426, input B =   115068029, output OUT = work.top_sv_unit(fast)   231541087653070354
+# refmod: input A = 01110111111011111110010011111010, input B = 00000110110110111100110001111101, output OUT = 0000001100110110100110010110010001111000011110000000011000010010
+# UVM_INFO @ 1965: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = -1526754732, input B =  -257863613, output OUT = work.DUT(fast) -7271182936258278404
+# mbe: input A = 10100100111111111001001001010100, input B = 11110000101000010101000001000011, output OUT = 1001101100010111100100011010010011010011011100011000101111111100
+# refmod: input A = -1526754732, input B =  -257863613, output OUT = work.top_sv_unit(fast)   393694491358366716
+# refmod: input A = 10100100111111111001001001010100, input B = 11110000101000010101000001000011, output OUT = 0000010101110110101011110000110111010011011100011000101111111100
+# UVM_INFO @ 1995: reporter [MISCMP] Miscompare for exp.data: lhs = 'h576af0dd3718bfc : rhs = 'h9b1791a4d3718bfc
+# UVM_INFO @ 1995: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 1995: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   933122992, input B =  2098971737, output OUT = work.DUT(fast)  1958598787352877104
+# mbe: input A = 00110111100111100101001110110000, input B = 01111101000110111100010001011001, output OUT = 0001101100101110010101110011100001010001101011011101100000110000
+# refmod: input A =   933122992, input B =  2098971737, output OUT = work.top_sv_unit(fast)  1958598787352877104
+# refmod: input A = 00110111100111100101001110110000, input B = 01111101000110111100010001011001, output OUT = 0001101100101110010101110011100001010001101011011101100000110000
+# UVM_INFO @ 2025: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =   313422485, input B =   -79067027, output OUT = work.DUT(fast)  1321357938822148465
+# mbe: input A = 00010010101011100111001010010101, input B = 11111011010010011000100001101101, output OUT = 0001001001010110011010000000101101100100101000101111000101110001
+# refmod: input A =   313422485, input B =   -79067027, output OUT = work.top_sv_unit(fast)   -24781384083902095
+# refmod: input A = 00010010101011100111001010010101, input B = 11111011010010011000100001101101, output OUT = 1111111110100111111101010111011001100100101000101111000101110001
+# UVM_INFO @ 2055: reporter [MISCMP] Miscompare for exp.data: lhs = 'hffa7f57664a2f171 : rhs = 'h1256680b64a2f171
+# UVM_INFO @ 2055: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2055: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1802088037, input B = -1498375476, output OUT = work.DUT(fast)  5039704663194057340
+# mbe: input A = 01101011011010011010111001100101, input B = 10100110101100001001101011001100, output OUT = 0100010111110000101000001011000010001110100011111011101001111100
+# refmod: input A =  1802088037, input B = -1498375476, output OUT = work.top_sv_unit(fast) -2700204520233780612
+# refmod: input A = 01101011011010011010111001100101, input B = 10100110101100001001101011001100, output OUT = 1101101010000110111100100100101110001110100011111011101001111100
+# UVM_INFO @ 2085: reporter [MISCMP] Miscompare for exp.data: lhs = 'hda86f24b8e8fba7c : rhs = 'h45f0a0b08e8fba7c
+# UVM_INFO @ 2085: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2085: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   346790413, input B =   750725250, output OUT = work.DUT(fast)   260344319497028250
+# mbe: input A = 00010100101010111001101000001101, input B = 00101100101111110010100010000010, output OUT = 0000001110011100111011011100011101111010111010010100001010011010
+# refmod: input A =   346790413, input B =   750725250, output OUT = work.top_sv_unit(fast)   260344319497028250
+# refmod: input A = 00010100101010111001101000001101, input B = 00101100101111110010100010000010, output OUT = 0000001110011100111011011100011101111010111010010100001010011010
+# UVM_INFO @ 2115: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  -514848618, input B =  1114402596, output OUT = work.DUT(fast)  4212574067951288088
+# mbe: input A = 11100001010100000000100010010110, input B = 01000010011011000110111100100100, output OUT = 0011101001110110000100011100101110101110010000100011111100011000
+# refmod: input A =  -514848618, input B =  1114402596, output OUT = work.top_sv_unit(fast)  -573748636446212328
+# refmod: input A = 11100001010100000000100010010110, input B = 01000010011011000110111100100100, output OUT = 1111100000001001101000101010011110101110010000100011111100011000
+# UVM_INFO @ 2145: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf809a2a7ae423f18 : rhs = 'h3a7611cbae423f18
+# UVM_INFO @ 2145: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2145: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1990144937, input B =  1391108412, output OUT = work.DUT(fast)  2768507362959910044
+# mbe: input A = 01110110100111110011001110101001, input B = 01010010111010101010000100111100, output OUT = 0010011001101011101101101100011101000111010001110110010010011100
+# refmod: input A =  1990144937, input B =  1391108412, output OUT = work.top_sv_unit(fast)  2768507362959910044
+# refmod: input A = 01110110100111110011001110101001, input B = 01010010111010101010000100111100, output OUT = 0010011001101011101101101100011101000111010001110110010010011100
+# UVM_INFO @ 2175: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  -919498834, input B =  -248009287, output OUT = work.DUT(fast) -4786364947291739458
+# mbe: input A = 11001001001100011000111110101110, input B = 11110001001101111010110110111001, output OUT = 1011110110010011011010100111000010001111010010110110101010111110
+# refmod: input A =  -919498834, input B =  -248009287, output OUT = work.top_sv_unit(fast)   228044250217671358
+# refmod: input A = 11001001001100011000111110101110, input B = 11110001001101111010110110111001, output OUT = 0000001100101010001011010000100110001111010010110110101010111110
+# UVM_INFO @ 2205: reporter [MISCMP] Miscompare for exp.data: lhs = 'h32a2d098f4b6abe : rhs = 'hbd936a708f4b6abe
+# UVM_INFO @ 2205: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2205: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -2112480238, input B =  1139990756, output OUT = work.DUT(fast)  2488015071209635848
+# mbe: input A = 10000010000101100001110000010010, input B = 01000011111100101110000011100100, output OUT = 0010001010000111001101001000011001110011010001001100000000001000
+# refmod: input A = -2112480238, input B =  1139990756, output OUT = work.top_sv_unit(fast) -2408207943552679928
+# refmod: input A = 10000010000101100001110000010010, input B = 01000011111100101110000011100100, output OUT = 1101111010010100010100111010001001110011010001001100000000001000
+# UVM_INFO @ 2235: reporter [MISCMP] Miscompare for exp.data: lhs = 'hde9453a27344c008 : rhs = 'h228734867344c008
+# UVM_INFO @ 2235: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2235: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   902816708, input B = -1243846763, output OUT = work.DUT(fast)  2754602595314265364
+# mbe: input A = 00110101110011111110001111000100, input B = 10110101110111000110011110010101, output OUT = 0010011000111010010100000111011101000111000100110110110100010100
+# refmod: input A =   902816708, input B = -1243846763, output OUT = work.top_sv_unit(fast) -1122965639828116204
+# refmod: input A = 00110101110011111110001111000100, input B = 10110101110111000110011110010101, output OUT = 1111000001101010011011001011001101000111000100110110110100010100
+# UVM_INFO @ 2265: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf06a6cb347136d14 : rhs = 'h263a507747136d14
+# UVM_INFO @ 2265: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2265: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1667800056, input B =  -909460132, output OUT = work.DUT(fast)  5646349037707601184
+# mbe: input A = 01100011011010001001101111111000, input B = 11001001110010101011110101011100, output OUT = 0100111001011011110111001000100010111110011011100010010100100000
+# refmod: input A =  1667800056, input B =  -909460132, output OUT = work.top_sv_unit(fast) -1516797659079367392
+# refmod: input A = 01100011011010001001101111111000, input B = 11001001110010101011110101011100, output OUT = 1110101011110011010000001001000010111110011011100010010100100000
+# UVM_INFO @ 2295: reporter [MISCMP] Miscompare for exp.data: lhs = 'heaf34090be6e2520 : rhs = 'h4e5bdc88be6e2520
+# UVM_INFO @ 2295: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2295: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   955752890, input B =   479675176, output OUT = work.DUT(fast)   458450935723258640
+# mbe: input A = 00111000111101111010000110111010, input B = 00011100100101110100001100101000, output OUT = 0000011001011100101111101011001001110010101110101111001100010000
+# refmod: input A =   955752890, input B =   479675176, output OUT = work.top_sv_unit(fast)   458450935723258640
+# refmod: input A = 00111000111101111010000110111010, input B = 00011100100101110100001100101000, output OUT = 0000011001011100101111101011001001110010101110101111001100010000
+# UVM_INFO @ 2325: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =   727585398, input B = -1792800587, output OUT = work.DUT(fast)  1820539960830115182
+# mbe: input A = 00101011010111100001001001110110, input B = 10010101001001000000100010110101, output OUT = 0001100101000011110110110111001011100000101011101011110101101110
+# refmod: input A =   727585398, input B = -1792800587, output OUT = work.top_sv_unit(fast) -1304415528627028626
+# refmod: input A = 00101011010111100001001001110110, input B = 10010101001001000000100010110101, output OUT = 1110110111100101110010001111110011100000101011101011110101101110
+# UVM_INFO @ 2355: reporter [MISCMP] Miscompare for exp.data: lhs = 'hede5c8fce0aebd6e : rhs = 'h1943db72e0aebd6e
+# UVM_INFO @ 2355: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2355: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -217388226, input B =   306376976, output OUT = work.DUT(fast)  1249276344867492320
+# mbe: input A = 11110011000010101110101100111110, input B = 00010010010000101111000100010000, output OUT = 0001000101010110010100100011011101111010001000000001000111100000
+# refmod: input A =  -217388226, input B =   306376976, output OUT = work.top_sv_unit(fast)   -66602747299884576
+# refmod: input A = 11110011000010101110101100111110, input B = 00010010010000101111000100010000, output OUT = 1111111100010011011000010010011101111010001000000001000111100000
+# UVM_INFO @ 2385: reporter [MISCMP] Miscompare for exp.data: lhs = 'hff1361277a2011e0 : rhs = 'h115652377a2011e0
+# UVM_INFO @ 2385: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2385: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  2058741458, input B =   559782854, output OUT = work.DUT(fast)  1152448169007361132
+# mbe: input A = 01111010101101011110011011010010, input B = 00100001010111011001101111000110, output OUT = 0000111111111110010100011000000011110111101110111010110001101100
+# refmod: input A =  2058741458, input B =   559782854, output OUT = work.top_sv_unit(fast)  1152448169007361132
+# refmod: input A = 01111010101101011110011011010010, input B = 00100001010111011001101111000110, output OUT = 0000111111111110010100011000000011110111101110111010110001101100
+# UVM_INFO @ 2415: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1842724951, input B =  1643266412, output OUT = work.DUT(fast)  3028088018532645812
+# mbe: input A = 01101101110101011100000001010111, input B = 01100001111100100100000101101100, output OUT = 0010101000000101111011100000001001100101010000010011101110110100
+# refmod: input A =  1842724951, input B =  1643266412, output OUT = work.top_sv_unit(fast)  3028088018532645812
+# refmod: input A = 01101101110101011100000001010111, input B = 01100001111100100100000101101100, output OUT = 0010101000000101111011100000001001100101010000010011101110110100
+# UVM_INFO @ 2445: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =   745512450, input B =   882143519, output OUT = work.DUT(fast)   657648976101311550
+# mbe: input A = 00101100011011111001111000000010, input B = 00110100100101000111000100011111, output OUT = 0000100100100000011100000100001001100111011010110000010000111110
+# refmod: input A =   745512450, input B =   882143519, output OUT = work.top_sv_unit(fast)   657648976101311550
+# refmod: input A = 00101100011011111001111000000010, input B = 00110100100101000111000100011111, output OUT = 0000100100100000011100000100001001100111011010110000010000111110
+# UVM_INFO @ 2475: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =   625629788, input B =  1403686096, output OUT = work.DUT(fast)   878187834659027648
+# mbe: input A = 00100101010010100101101001011100, input B = 01010011101010101000110011010000, output OUT = 0000110000101111111100110010111011001010111010111011101011000000
+# refmod: input A =   625629788, input B =  1403686096, output OUT = work.top_sv_unit(fast)   878187834659027648
+# refmod: input A = 00100101010010100101101001011100, input B = 01010011101010101000110011010000, output OUT = 0000110000101111111100110010111011001010111010111011101011000000
+# UVM_INFO @ 2505: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1480563644, input B = -1685843098, output OUT = work.DUT(fast)  3862974430239457512
+# mbe: input A = 01011000001111111001101110111100, input B = 10011011100001000001001101100110, output OUT = 0011010110011100000010101100011100000010110101110000000011101000
+# refmod: input A =  1480563644, input B = -1685843098, output OUT = work.top_sv_unit(fast) -2495998000387129112
+# refmod: input A = 01011000001111111001101110111100, input B = 10011011100001000001001101100110, output OUT = 1101110101011100011011110000101100000010110101110000000011101000
+# UVM_INFO @ 2535: reporter [MISCMP] Miscompare for exp.data: lhs = 'hdd5c6f0b02d700e8 : rhs = 'h359c0ac702d700e8
+# UVM_INFO @ 2535: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2535: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1379871531, input B =  -522313389, output OUT = work.DUT(fast) -7449096646603147761
+# mbe: input A = 10101101110000001101010011010101, input B = 11100000110111100010000101010011, output OUT = 1001100010011111011111100001000100100001101010100111011000001111
+# refmod: input A = -1379871531, input B =  -522313389, output OUT = work.top_sv_unit(fast)   720725375741228559
+# refmod: input A = 10101101110000001101010011010101, input B = 11100000110111100010000101010011, output OUT = 0000101000000000100001111110100100100001101010100111011000001111
+# UVM_INFO @ 2565: reporter [MISCMP] Miscompare for exp.data: lhs = 'ha0087e921aa760f : rhs = 'h989f7e1121aa760f
+# UVM_INFO @ 2565: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2565: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   963515151, input B =  1687302410, output OUT = work.DUT(fast)  1625741436353813910
+# mbe: input A = 00111001011011100001001100001111, input B = 01100100100100100011000100001010, output OUT = 0001011010001111110010110011100100001010100000001001110110010110
+# refmod: input A =   963515151, input B =  1687302410, output OUT = work.top_sv_unit(fast)  1625741436353813910
+# refmod: input A = 00111001011011100001001100001111, input B = 01100100100100100011000100001010, output OUT = 0001011010001111110010110011100100001010100000001001110110010110
+# UVM_INFO @ 2595: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  -222445071, input B =   990904340, output OUT = work.DUT(fast)  4035479947498956500
+# mbe: input A = 11110010101111011100000111110001, input B = 00111011000100000000000000010100, output OUT = 0011100000000000111001111010000110100000111000110010011011010100
+# refmod: input A =  -222445071, input B =   990904340, output OUT = work.top_sv_unit(fast)  -220421786265508140
+# refmod: input A = 11110010101111011100000111110001, input B = 00111011000100000000000000010100, output OUT = 1111110011110000111001111000110110100000111000110010011011010100
+# UVM_INFO @ 2625: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfcf0e78da0e326d4 : rhs = 'h3800e7a1a0e326d4
+# UVM_INFO @ 2625: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2625: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -2028732885, input B =  -495580743, output OUT = work.DUT(fast)  8610300547099275283
+# mbe: input A = 10000111000100111111111000101011, input B = 11100010011101100000100110111001, output OUT = 0111011101111101111011101011101001101111001101000011000000010011
+# refmod: input A = -2028732885, input B =  -495580743, output OUT = work.top_sv_unit(fast)  1005400950496833555
+# refmod: input A = 10000111000100111111111000101011, input B = 11100010011101100000100110111001, output OUT = 0000110111110011111001101101011001101111001101000011000000010011
+# UVM_INFO @ 2655: reporter [MISCMP] Miscompare for exp.data: lhs = 'hdf3e6d66f343013 : rhs = 'h777deeba6f343013
+# UVM_INFO @ 2655: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2655: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1974633958, input B =  1595393519, output OUT = work.DUT(fast)  3701844769364836422
+# mbe: input A = 10001010010011010111101000011010, input B = 01011111000101111100010111101111, output OUT = 0011001101011111100110000011010001011011101000010000000001000110
+# refmod: input A = -1974633958, input B =  1595393519, output OUT = work.top_sv_unit(fast) -3150318218990518202
+# refmod: input A = 10001010010011010111101000011010, input B = 01011111000101111100010111101111, output OUT = 1101010001000111110100100100010101011011101000010000000001000110
+# UVM_INFO @ 2685: reporter [MISCMP] Miscompare for exp.data: lhs = 'hd447d2455ba10046 : rhs = 'h335f98345ba10046
+# UVM_INFO @ 2685: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2685: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -435618053, input B =   565725749, output OUT = work.DUT(fast)  2183333241148758007
+# mbe: input A = 11100110000010001111111011111011, input B = 00100001101110000100101000110101, output OUT = 0001111001001100110000100000001111011000111110010101011111110111
+# refmod: input A =  -435618053, input B =   565725749, output OUT = work.top_sv_unit(fast)  -246440349311346697
+# refmod: input A = 11100110000010001111111011111011, input B = 00100001101110000100101000110101, output OUT = 1111110010010100011101111100111011011000111110010101011111110111
+# UVM_INFO @ 2715: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfc9477ced8f957f7 : rhs = 'h1e4cc203d8f957f7
+# UVM_INFO @ 2715: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2715: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1846239052, input B =   928372228, output OUT = work.DUT(fast)  1713997062125847856
+# mbe: input A = 01101110000010110101111101001100, input B = 00110111010101011101011000000100, output OUT = 0001011111001001010101110011111100110010000100110000010100110000
+# refmod: input A =  1846239052, input B =   928372228, output OUT = work.top_sv_unit(fast)  1713997062125847856
+# refmod: input A = 01101110000010110101111101001100, input B = 00110111010101011101011000000100, output OUT = 0001011111001001010101110011111100110010000100110000010100110000
+# UVM_INFO @ 2745: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A =  1819764520, input B = -2118569707, output OUT = work.DUT(fast)  3960531113875742280
+# mbe: input A = 01101100011101110110011100101000, input B = 10000001101110010011000100010101, output OUT = 0011011011110110101000100001000001110100011100100001111001001000
+# refmod: input A =  1819764520, input B = -2118569707, output OUT = work.top_sv_unit(fast) -3855297985945395640
+# refmod: input A = 01101100011101110110011100101000, input B = 10000001101110010011000100010101, output OUT = 1100101001111111001110101110100001110100011100100001111001001000
+# UVM_INFO @ 2775: reporter [MISCMP] Miscompare for exp.data: lhs = 'hca7f3ae874721e48 : rhs = 'h36f6a21074721e48
+# UVM_INFO @ 2775: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2775: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  -730141512, input B =   486531432, output OUT = work.DUT(fast)  1734399793520042688
+# mbe: input A = 11010100011110101110110010111000, input B = 00011100111111111110000101101000, output OUT = 0001100000010001110100110110110001000111010001011110001011000000
+# refmod: input A =  -730141512, input B =   486531432, output OUT = work.top_sv_unit(fast)  -355236795396005184
+# refmod: input A = 11010100011110101110110010111000, input B = 00011100111111111110000101101000, output OUT = 1111101100010001111100100000010001000111010001011110001011000000
+# UVM_INFO @ 2805: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfb11f2044745e2c0 : rhs = 'h1811d36c4745e2c0
+# UVM_INFO @ 2805: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2805: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   836122450, input B =   646701563, output OUT = work.DUT(fast)   540721695274389350
+# mbe: input A = 00110001110101100011011101010010, input B = 00100110100010111110000111111011, output OUT = 0000011110000001000001111000010001011001001011010100111101100110
+# refmod: input A =   836122450, input B =   646701563, output OUT = work.top_sv_unit(fast)   540721695274389350
+# refmod: input A = 00110001110101100011011101010010, input B = 00100110100010111110000111111011, output OUT = 0000011110000001000001111000010001011001001011010100111101100110
+# UVM_INFO @ 2835: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = -1104650365, input B =  -810571694, output OUT = work.DUT(fast) -7330417790347014154
+# mbe: input A = 10111110001010000101111110000011, input B = 11001111101011111010100001010010, output OUT = 1001101001000101000111111101101110011111001010011000111111110110
+# refmod: input A = -1104650365, input B =  -810571694, output OUT = work.top_sv_unit(fast)   895398317635768310
+# refmod: input A = 10111110001010000101111110000011, input B = 11001111101011111010100001010010, output OUT = 0000110001101101000110000000011010011111001010011000111111110110
+# UVM_INFO @ 2865: reporter [MISCMP] Miscompare for exp.data: lhs = 'hc6d18069f298ff6 : rhs = 'h9a451fdb9f298ff6
+# UVM_INFO @ 2865: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2865: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =   483828869, input B =  -481482546, output OUT = work.DUT(fast)  1845074013541247750
+# mbe: input A = 00011100110101101010010010000101, input B = 11100011010011010010100011001110, output OUT = 0001100110011011000001010000101000101001011011100010101100000110
+# refmod: input A =   483828869, input B =  -481482546, output OUT = work.top_sv_unit(fast)  -232955155674420474
+# refmod: input A = 00011100110101101010010010000101, input B = 11100011010011010010100011001110, output OUT = 1111110011000100011000001000010100101001011011100010101100000110
+# UVM_INFO @ 2895: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfcc46085296e2b06 : rhs = 'h199b050a296e2b06
+# UVM_INFO @ 2895: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2895: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A = -1438715377, input B =  -672546808, output OUT = work.DUT(fast) -8100198603434635144
+# mbe: input A = 10101010001111101111001000001111, input B = 11010111111010011100000000001000, output OUT = 1000111110010110010100000100100101110000001010011101000001111000
+# refmod: input A = -1438715377, input B =  -672546808, output OUT = work.top_sv_unit(fast)   967603434421866616
+# refmod: input A = 10101010001111101111001000001111, input B = 11010111111010011100000000001000, output OUT = 0000110101101101100111100011001001110000001010011101000001111000
+# UVM_INFO @ 2925: reporter [MISCMP] Miscompare for exp.data: lhs = 'hd6d9e327029d078 : rhs = 'h8f9650497029d078
+# UVM_INFO @ 2925: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2925: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1167978686, input B =  -538364857, output OUT = work.DUT(fast)  4387631580527615154
+# mbe: input A = 01000101100111011111000010111110, input B = 11011111111010010011010001000111, output OUT = 0011110011100011111111111010110100000010101000100101110010110010
+# refmod: input A =  1167978686, input B =  -538364857, output OUT = work.top_sv_unit(fast)  -628798678267437902
+# refmod: input A = 01000101100111011111000010111110, input B = 11011111111010010011010001000111, output OUT = 1111011101000110000011101110111100000010101000100101110010110010
+# UVM_INFO @ 2955: reporter [MISCMP] Miscompare for exp.data: lhs = 'hf7460eef02a25cb2 : rhs = 'h3ce3ffad02a25cb2
+# UVM_INFO @ 2955: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 2955: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1265812886, input B =  1254102635, output OUT = work.DUT(fast)  1587459275749554610
+# mbe: input A = 01001011011100101100010110010110, input B = 01001010110000000001011001101011, output OUT = 0001011000000111110010011100110011110010011100110111100110110010
+# refmod: input A =  1265812886, input B =  1254102635, output OUT = work.top_sv_unit(fast)  1587459275749554610
+# refmod: input A = 01001011011100101100010110010110, input B = 01001010110000000001011001101011, output OUT = 0001011000000111110010011100110011110010011100110111100110110010
+# UVM_INFO @ 2985: uvm_test_top.env_h.comp [Comparator Match] 
+# mbe: input A = -2032080775, input B =   131184124, output OUT = work.DUT(fast)   296854785968792604
+# mbe: input A = 10000110111000001110100001111001, input B = 00000111110100011011010111111100, output OUT = 0000010000011110101000111101101011100011100010110110010000011100
+# refmod: input A = -2032080775, input B =   131184124, output OUT = work.top_sv_unit(fast)  -266576736365616100
+# refmod: input A = 10000110111000001110100001111001, input B = 00000111110100011011010111111100, output OUT = 1111110001001100111011011101111011100011100010110110010000011100
+# UVM_INFO @ 3015: reporter [MISCMP] Miscompare for exp.data: lhs = 'hfc4ceddee38b641c : rhs = 'h41ea3dae38b641c
+# UVM_INFO @ 3015: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 3015: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# mbe: input A =  1212576424, input B = -1207887382, output OUT = work.DUT(fast)  3743320322720347536
+# mbe: input A = 01001000010001100111001010101000, input B = 10111000000000010001100111101010, output OUT = 0011001111110010111100100000000000100100001111110011010110010000
+# refmod: input A =  1212576424, input B = -1207887382, output OUT = work.top_sv_unit(fast) -1464655762260281968
+# refmod: input A = 01001000010001100111001010101000, input B = 10111000000000010001100111101010, output OUT = 1110101110101100011111110101100000100100001111110011010110010000
+# UVM_INFO @ 3045: reporter [MISCMP] Miscompare for exp.data: lhs = 'hebac7f58243f3590 : rhs = 'h33f2f200243f3590
+# UVM_INFO @ 3045: reporter [MISCMP] 1 Miscompare(s) for object tr@825 vs. exp@617
+# UVM_WARNING @ 3045: uvm_test_top.env_h.comp [Comparator Mismatch] 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 3045: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../tb/env.sv(42) @ 3045: uvm_test_top.env_h [env] Reporting matched 32
+# UVM_ERROR ../tb/env.sv(44) @ 3045: uvm_test_top.env_h [env] Saw 69 mismatched samples
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  175
+# UVM_WARNING :   69
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Comparator Match]    32
+# [Comparator Mismatch]    69
+# [MISCMP]   138
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [env]     2
+# ** Note: $finish    : /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 3045 ns  Iteration: 58  Instance: /top
+# Break in Task uvm_pkg/uvm_root::run_test at /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# End time: 21:32:16 on Mar 10,2021, Elapsed time: 0:50:37
+# Errors: 0, Warnings: 4

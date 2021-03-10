@@ -1,0 +1,7 @@
+#Inizialize QUESTA
+source /software/scripts/init_questa10.7c 
+#launch questa
+vsim
+#create work directory
+vlib work
+
