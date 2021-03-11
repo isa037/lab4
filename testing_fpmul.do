@@ -23,8 +23,15 @@ vcom -93 -work ./work ../src/mbe/dadda_stage6.vhd
 vcom -93 -work ./work ../src/mbe/rca63.vhd
 vcom -93 -work ./work ../src/mbe/dadda_tree.vhd
 vcom -93 -work ./work ../src/mbe/mbe.vhd
+vcom -93 -work ./work ../src/multiplier/fpmul_stage1_struct.vhd
+vcom -93 -work ./work ../src/multiplier/fpmul_stage2_struct.vhd
+vcom -93 -work ./work ../src/multiplier/fpmul_stage3_struct.vhd
+vcom -93 -work ./work ../src/multiplier/fpmul_stage4_struct.vhd
+vcom -93 -work ./work ../src/multiplier/fpmul_pipeline.vhd
+vcom -93 -work ./work ../src/multiplier/REG.vhd
+vcom -93 -work ./work ../src/multiplier/fpmul_pipeline_inputRegistered.vhd
 
 #run the given source code
 vlog -sv ../tb/top.sv
 vsim top
-run 4 us
+run 10 us
