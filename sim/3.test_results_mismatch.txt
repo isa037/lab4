@@ -799,5 +799,3 @@ do ../testing_initial.do
 # ** Note: $finish    : /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
 #    Time: 3045 ns  Iteration: 58  Instance: /top
 # Break in Task uvm_pkg/uvm_root::run_test at /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
-# End time: 14:14:40 on Mar 12,2021, Elapsed time: 0:01:40
-# Errors: 0, Warnings: 4

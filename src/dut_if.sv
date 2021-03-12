@@ -1,6 +1,6 @@
 interface dut_if(input clk, rst);
     logic [31:0] A, B;
-    logic [63:0] data;
+    logic [31:0] data;
     logic valid, ready;
     
     modport port_in (input clk, rst, A, B, valid, output ready);
