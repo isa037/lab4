@@ -2,6 +2,9 @@ class refmod extends uvm_component;
     `uvm_component_utils(refmod)
 
     shortreal fpA, fpB, fpdata;
+
+    logic [31:0] fpdata_bin;
+    logic [8:0]  fpdata_msb;
     
     packet_in tr_in;
     packet_out tr_out;
@@ -27,7 +30,22 @@ class refmod extends uvm_component;
 	    fpA=$bitstoshortreal(tr_in.A);
 	    fpB=$bitstoshortreal(tr_in.B);
 	    fpdata= fpA * fpB ;
-            tr_out.data=$shortrealtobits(fpdata);
+	    fpdata_bin=$shortrealtobits(fpdata);
+	    fpdata_msb=fpdata_bin[31:23];
+	    if (fpdata_msb==0) begin
+		tr_out.data=0;
+		fpdata=0;
+		$display("Zero, fpdata_msb vale: %b", fpdata_msb);
+	   
+	    end else if (fpdata_msb==256) begin
+		tr_out.data=2147483648;
+		fpdata=-32'H0;
+		$display("Zero, fpdata_msb vale: %b", fpdata_msb);
+	    
+	    end else begin
+            	tr_out.data=$shortrealtobits(fpdata);
+		$display("Diverso da zero, fpdata_msb vale: %b", fpdata_msb);
+	    end
             $display("refmod: input A = %f, input B = %f, output OUT = %f",fpA, fpB, fpdata);
 			$display("refmod: input A = %b, input B = %b, output OUT = %b",tr_in.A, tr_in.B, tr_out.data);
             out.put(tr_out);
